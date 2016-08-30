@@ -1,4 +1,4 @@
-// Lighting choreographies
+ï»¿// Lighting choreographies
 
 Discovery of the technical aspect of the light 
 and its uses thanks to the "LightFab" at Olivier de Serres, a 
@@ -11,17 +11,17 @@ and spolights. We also conceived several shorts
 choreographies with onboard LED which generate sadows, 
 geometrical patterns, and so on.
 
-Découverte de la lumière et de ses utilisations à travers 
-l'Atelier Lumière mis en place par l'ENSAAMA.
-Utilisation de la lumière des projecteurs comme un véritable matériau. 
-La mise en lumière de la tour de l'escalier incite au parcours 
-et met en valeur les diagonales des marches, cette scénographie 
-lumineuse permet plusieurs ambiances colorées.
-Découverte et appropriation de la lumière avec des filtres colorés 
-(pratique de la synthèse additive et soustractive). Jeux de motifs 
-projetés sur le mur ou directement sur un étudiant, tels une seconde peau. 
-Jeux de lumière et ombres avec des LED embarquées et création d'amorces 
-de chorégraphies lumineuses.
+DÃ©couverte de la lumiÃ¨re et de ses utilisations Ã  travers 
+l'Atelier LumiÃ¨re mis en place par l'ENSAAMA.
+Utilisation de la lumiÃ¨re des projecteurs comme un vÃ©ritable matÃ©riau. 
+La mise en lumiÃ¨re de la tour de l'escalier incite au parcours 
+et met en valeur les diagonales des marches, cette scÃ©nographie 
+lumineuse permet plusieurs ambiances colorÃ©es.
+DÃ©couverte et appropriation de la lumiÃ¨re avec des filtres colorÃ©s 
+(pratique de la synthÃ¨se additive et soustractive). Jeux de motifs 
+projetÃ©s sur le mur ou directement sur un Ã©tudiant, tels une seconde peau. 
+Jeux de lumiÃ¨re et ombres avec des LED embarquÃ©es et crÃ©ation d'amorces 
+de chorÃ©graphies lumineuses.
 
 // Fluorescent paintings
 
@@ -29,129 +29,147 @@ Several experimentations using black light technology,
 fluorescent paints and accessories based on the theme 
 "wild and tribal".
 
-Expérimentations avec de la lumière noire et de la 
+ExpÃ©rimentations avec de la lumiÃ¨re noire et de la 
 peinture fluorescente comme amorce d'un projet pour 
-la Fête des Lumières à Lyon. Atelier libre à partir 
+la FÃªte des LumiÃ¨res Ã  Lyon. Atelier libre Ã  partir 
 de peintures et d'accessoires fluorescents (tulle, 
-arceaux lumineux,...). La source lumineuse composée 
+arceaux lumineux,...). La source lumineuse composÃ©e 
 d'ultras-violets fait alors ressortir les blancs et 
-tous les objets fluorescents en créant un ambiance 
+tous les objets fluorescents en crÃ©ant un ambiance 
 originale et inhabituelle, presque tribale.
 
-// "Préciosité architecturale"
+// "PrÃ©ciositÃ© architecturale"
 
-Small architectural experiments based on <em>Le Dépeupleur</em> written 
+Small architectural experiments based on <em>Le DÃ©peupleur</em> written 
 by Samuel Beckett. They are linked to several intimate notions 
 such as memory, protection, preciosity. The white light reveals the curves
 of those shelters and highlights a new understanding of the environment: 
 a more poetic, a more intimate space is created.
 
-À partir de la lecture du texte Le Dépeupleur, de Samuel Beckett, 
-création de micro-architectures révélant différentes notions comme la 
-mémoire, la protection, la préciosité. L'architecture se réduit à sa 
-petite échelle. La structure recouvre l'utilisateur. Elle devient un 
-lieu de protection qui l'habille, le protège. La mise en lumière révèle 
-l'architecture, elle lui donne sa propre identité nocturne, dans le but 
+Ã€ partir de la lecture du texte Le DÃ©peupleur, de Samuel Beckett, 
+crÃ©ation de micro-architectures rÃ©vÃ©lant diffÃ©rentes notions comme la 
+mÃ©moire, la protection, la prÃ©ciositÃ©. L'architecture se rÃ©duit Ã  sa 
+petite Ã©chelle. La structure recouvre l'utilisateur. Elle devient un 
+lieu de protection qui l'habille, le protÃ¨ge. La mise en lumiÃ¨re rÃ©vÃ¨le 
+l'architecture, elle lui donne sa propre identitÃ© nocturne, dans le but 
 de proposer une nouvelle lecture de l'environnement, plus intime et 
-poétique, grâce aux ombres portées/directes. La lumière révèle des jeux 
-d'ombres qui brouillent la réalité tout en en créant une nouvelle.
+poÃ©tique, grÃ¢ce aux ombres portÃ©es/directes. La lumiÃ¨re rÃ©vÃ¨le des jeux 
+d'ombres qui brouillent la rÃ©alitÃ© tout en en crÃ©ant une nouvelle.
 
 
 // Space and rhythms
 
 
-Appréhension d'un espace ouvert et d'un espace fermé à l'aide de "modules" 
-(cageots, tréteaux, tabourets, et chevalets). Gestion de l'espace et 
-interprétation des rythmes traduits par l'acte architectural. 
-Le travail s'est articulé en plusieurs phases distinctes : installer 
+ApprÃ©hension d'un espace ouvert et d'un espace fermÃ© Ã  l'aide de "modules" 
+(cageots, trÃ©teaux, tabourets, et chevalets). Gestion de l'espace et 
+interprÃ©tation des rythmes traduits par l'acte architectural. 
+Le travail s'est articulÃ© en plusieurs phases distinctes : installer 
 collectivement des modules dans l'espace, lier des verbes de mouvement 
-aux photographies d'installations, retranscrire plastiquement à petite 
-échelle des rythmes observés, développer l'idée finale à grande échelle. 
-J'ai développé le projet autour de la notion de la ligne : d'abord en trois 
+aux photographies d'installations, retranscrire plastiquement Ã  petite 
+Ã©chelle des rythmes observÃ©s, dÃ©velopper l'idÃ©e finale Ã  grande Ã©chelle. 
+J'ai dÃ©veloppÃ© le projet autour de la notion de la ligne : d'abord en trois 
 dimensions dans l'espace, puis en deux dimensions sur l'espace de la feuille, 
-elle devient un fil conducteur qui envahit peu à peu le corps, l'espace en 
-instaurant parfois une dualité, une affinité avec son environnement.
+elle devient un fil conducteur qui envahit peu Ã  peu le corps, l'espace en 
+instaurant parfois une dualitÃ©, une affinitÃ© avec son environnement.
 
 // Wayfinding in the urban space 
 
--
+
+La signalÃ©tique est prÃ©sente Ã  nâ€™importe quelle Ã©chelle de 
+lâ€™espace : de la feuille de papier Ã  la ville en passant 
+par le domaine de lâ€™Ã©dition et les bÃ¢timents publics. 
+Ces diffÃ©rents systÃ¨mes de signalÃ©tique sont guidÃ©s par une 
+volontÃ© commune : faire fonction dâ€™orientation mais Ã©galement 
+dâ€™information et de communication. Ã€ travers ces trois principes 
+fondamentaux, et des Å“uvres manifestes, il sâ€™agit alors de mettre 
+en place une rÃ©flexion ainsi quâ€™une analyse autour de la 
+(re)structuration de lâ€™espace par la signalÃ©tique et les 
+consÃ©quences liÃ©es Ã  celle-ci telle quâ€™une (rÃ©)appropriation de 
+lâ€™espace par lâ€™individu ou lâ€™adaptation dâ€™une nouvelle posture 
+quant Ã  cet espace signalisÃ©.
 
 // A landscape revaluation in Vincennes
 
 
-La Ferme de paris, située au cœur du bois de Vincennes 
-est une exploitation agricole à vocation pédagogique 
-créée en 1989. À ce titre, elle développe des techniques 
-agricoles basées sur le respect de l’environnement et 
-valorise l’exploitation de l’agriculture biologique, 
-l’éco-construction pour la rénovation de ses infrastructures, 
-la limitation des nuisances et pollutions, la gestion paysagère. 
-Le projet de signalétique se développe autour de trois notions 
-maîtresses : sensibiliser, valoriser et identifier les différents 
-espaces de cette ferme afin de hiérarchiser les espaces pour tendre 
+La Ferme de paris, situÃ©e au cÅ“ur du bois de Vincennes 
+est une exploitation agricole Ã  vocation pÃ©dagogique 
+crÃ©Ã©e en 1989. Ã€ ce titre, elle dÃ©veloppe des techniques 
+agricoles basÃ©es sur le respect de lâ€™environnement et 
+valorise lâ€™exploitation de lâ€™agriculture biologique, 
+lâ€™Ã©co-construction pour la rÃ©novation de ses infrastructures, 
+la limitation des nuisances et pollutions, la gestion paysagÃ¨re. 
+Le projet de signalÃ©tique se dÃ©veloppe autour de trois notions 
+maÃ®tresses : sensibiliser, valoriser et identifier les diffÃ©rents 
+espaces de cette ferme afin de hiÃ©rarchiser les espaces pour tendre 
 vers une nouvelle identification du territoire.
 
-// Être au monde
+// ÃŠtre au monde
 
 
-Traduction plastique d'un extrait de La Poétique de l'Espace, 
-et plus particulièrement du chapitre IV, « Le Nid » de Gaston 
-BACHELARD, questionnant le rapport de l'être au monde dans sa 
-dimension première. Le textile renvoie à l'univers du cocon, 
-de la membrane ; la lumière crée un univers chaleureux, intime, 
-teinté d'un certain aspect mystérieux voire même intrigant ; 
-la superposition de deux photographies crée un mouvement ; 
+Traduction plastique d'un extrait de La PoÃ©tique de l'Espace, 
+et plus particuliÃ¨rement du chapitre IV, Â« Le Nid Â» de Gaston 
+BACHELARD, questionnant le rapport de l'Ãªtre au monde dans sa 
+dimension premiÃ¨re. Le textile renvoie Ã  l'univers du cocon, 
+de la membrane ; la lumiÃ¨re crÃ©e un univers chaleureux, intime, 
+teintÃ© d'un certain aspect mystÃ©rieux voire mÃªme intrigant ; 
+la superposition de deux photographies crÃ©e un mouvement ; 
 la forme humaine habite cet entre-deux, le subit, le confronte 
-créant ainsi une dualité tangible, une narration sous forme de storyboard.
-Projet mené avec Alizée Billois.
+crÃ©ant ainsi une dualitÃ© tangible, une narration sous forme de storyboard.
+Projet menÃ© avec AlizÃ©e Billois.
 
 // Social dynamics and ephemeral common times
 
--
+
+La ville de Tonnerre, situÃ©e Ã  200 km de Paris, 
+en Bourgogne, reste plongÃ©e dans une sorte d'inertie, lÃ©thargie.
+Ã€ partir de ce postulat, comment gÃ©rer la mobilitÃ© ? Comment envisager 
+le caractÃ¨re exceptionnel de lâ€™Ã©vÃ©nement (chantier, exposition, temps forts,...) ? 
+Quel est le rÃ´le de lâ€™architecte ? Quelle position doit-il alors
+adopter ? De quelle maniÃ¨re envisager le patrimoine, son potentiel ?
 
 // INSALAN 2015
 
 
-Pour cette dixième édition de l'INSALAN, 
-un des plus grands événements étudiants du 
-jeu vidéo, regroupant plus de 440 joueurs le temps 
-d'un week-end, l'identité de l'événement s'est développée 
-autour de l'image du space invader. Véritable emblème 
-de l'association responsable de l'événement, il se 
-décline sur les supports de communication (l'affiche, 
+Pour cette dixiÃ¨me Ã©dition de l'INSALAN, 
+un des plus grands Ã©vÃ©nements Ã©tudiants du 
+jeu vidÃ©o, regroupant plus de 440 joueurs le temps 
+d'un week-end, l'identitÃ© de l'Ã©vÃ©nement s'est dÃ©veloppÃ©e 
+autour de l'image du space invader. VÃ©ritable emblÃ¨me 
+de l'association responsable de l'Ã©vÃ©nement, il se 
+dÃ©cline sur les supports de communication (l'affiche, 
 les flyers, les badges joueurs et staff, le livret d'accueil) 
-mais également autour d'une signalétique éphémère conçue pour 
-promouvoir l'événement à travers le campus de Beaulieu mais 
-aussi à travers la ville.
+mais Ã©galement autour d'une signalÃ©tique Ã©phÃ©mÃ¨re conÃ§ue pour 
+promouvoir l'Ã©vÃ©nement Ã  travers le campus de Beaulieu mais 
+aussi Ã  travers la ville.
 
 // CAPE DE SURVIE
 
 
-Développement des idées amorcées lors des sessions précédentes 
-de l'Atelier Lumière. Le spectacle est l'expression d’un 
-laboratoire d’expérimentations, toujours soutenu par une 
-spontanéité et une inventivité. Il n'y a plus (ou presque) 
-de projecteurs, les danseurs manipulent eux-mêmes la lumière 
-qui est alors embarquée. Celle-ci devient volume, matière, 
-elle devient mouvement, elle se colore et se modèle au fil de 
-la représentation. 
-+ Le spectacle a été retenu dans le cadre du festival 
-Ici&Demain 2015 organisé par la ville de Paris pour les 
-étudiants en art qui, comme nous, réalisent des projets artistiques !
+DÃ©veloppement des idÃ©es amorcÃ©es lors des sessions prÃ©cÃ©dentes 
+de l'Atelier LumiÃ¨re. Le spectacle est l'expression dâ€™un 
+laboratoire dâ€™expÃ©rimentations, toujours soutenu par une 
+spontanÃ©itÃ© et une inventivitÃ©. Il n'y a plus (ou presque) 
+de projecteurs, les danseurs manipulent eux-mÃªmes la lumiÃ¨re 
+qui est alors embarquÃ©e. Celle-ci devient volume, matiÃ¨re, 
+elle devient mouvement, elle se colore et se modÃ¨le au fil de 
+la reprÃ©sentation. 
++ Le spectacle a Ã©tÃ© retenu dans le cadre du festival 
+Ici&Demain 2015 organisÃ© par la ville de Paris pour les 
+Ã©tudiants en art qui, comme nous, rÃ©alisent des projets artistiques !
 
 // A shipard exhibition in Tonnerre
 
 
-Le centre ville de Tonnerre (Bourgogne) est particulièrement 
-riche en bâtiments historiques. Parmi ceux-ci, l'ancien hôtel 
-particulier de la famille Cœurderoy fait l'objet d'une rénovation 
-après plus d'une décennie d'abandon. Dans une perspective de 
+Le centre ville de Tonnerre (Bourgogne) est particuliÃ¨rement 
+riche en bÃ¢timents historiques. Parmi ceux-ci, l'ancien hÃ´tel 
+particulier de la famille CÅ“urderoy fait l'objet d'une rÃ©novation 
+aprÃ¨s plus d'une dÃ©cennie d'abandon. Dans une perspective de 
 dynamisation culturelle de la ville, le projet s'articule autour 
-d'un chantier ouvert au public permettant de réhabiliter le bâtiment 
+d'un chantier ouvert au public permettant de rÃ©habiliter le bÃ¢timent 
 tout en incluant les habitants dans ce processus et d'une exposition 
-qui suit les différentes phases du chantier promouvant de cette façon 
-son actuelle et future fonction muséale.
-¦ Vous pouvez consulter le dossier complet de mon projet professionnel de synthèse ici ? !
+qui suit les diffÃ©rentes phases du chantier promouvant de cette faÃ§on 
+son actuelle et future fonction musÃ©ale.
+âŒ‚ Vous pouvez consulter le dossier complet de mon projet professionnel de synthÃ¨se ici â˜º !
 
 // Borbola
 
@@ -166,53 +184,54 @@ former letters structure.
 The project, through the unity of the several communication mediums,
 is developped around a specific vocabulary: a curative and a humorous one.
 
-Borbola est une typographie linéale de titrage, 
-imaginée à partir du lettrage de la carte postale 
+Borbola est une typographie linÃ©ale de titrage, 
+imaginÃ©e Ã  partir du lettrage de la carte postale 
 de La Bourboule datant de 1900. <br>
-Par son nom, Borbola fait ainsi référence à la boue, 
-à la bourbe, en hommage à cette ville où les nombreuses 
-sources thermales en ont fait la renommée au XIXème siècle. <br> 
-La fonte est construite à partir d’un gabarit modulaire 
-basé sur des formes élémentaires qui renforcent la verticalité 
-et la géométrie des fûts du lettrage d’origine.
-Le projet, à travers la cohérence des différents supports de 
-communication déployés s'articule autour d'un vocabulaire 
+Par son nom, Borbola fait ainsi rÃ©fÃ©rence Ã  la boue, 
+Ã  la bourbe, en hommage Ã  cette ville oÃ¹ les nombreuses 
+sources thermales en ont fait la renommÃ©e au XIXÃ¨me siÃ¨cle. <br> 
+La fonte est construite Ã  partir dâ€™un gabarit modulaire 
+basÃ© sur des formes Ã©lÃ©mentaires qui renforcent la verticalitÃ© 
+et la gÃ©omÃ©trie des fÃ»ts du lettrage dâ€™origine.
+Le projet, Ã  travers la cohÃ©rence des diffÃ©rents supports de 
+communication dÃ©ployÃ©s s'articule autour d'un vocabulaire 
 curatif et humoristique.
-
-// TYPOSTALES
-
--
-
 
 // WEATHER
 
 
-
-WEATHER est un jeu vidéoludique qui intègre les données météorologiques 
-comme véritables composantes. Suivant la localisation géographique du 
-joueur et les variables météorologiques au moment où il se lance le jeu, 
-l’univers dans lequel il peut évoluer et son player, sont directement 
-impactés : le fond varie suivant s’il fait très nuageux, brumeux ou encore 
-s’il y a du crachin, ou des orages épars ; le player, représenté par une 
-petite boule qui se déplace, voit sa vitesse et sa maniabilité influencées 
+WEATHER est un jeu vidÃ©oludique qui intÃ¨gre les donnÃ©es mÃ©tÃ©orologiques 
+comme vÃ©ritables composantes. Suivant la localisation gÃ©ographique du 
+joueur et les variables mÃ©tÃ©orologiques au moment oÃ¹ il se lance le jeu, 
+lâ€™univers dans lequel il peut Ã©voluer et son player, sont directement 
+impactÃ©s : le fond varie suivant sâ€™il fait trÃ¨s nuageux, brumeux ou encore 
+sâ€™il y a du crachin, ou des orages Ã©pars ; le player, reprÃ©sentÃ© par une 
+petite boule qui se dÃ©place, voit sa vitesse et sa maniabilitÃ© influencÃ©es 
 aussi bien par la direction que par la vitesse du vent. Reposant sur des 
-principes graphiques simples, le projet s’est déployé autour de notions 
-telles que l’utilisation du noir et blanc, l’accumulation, la trame, et la 
-ligne. Le monde est créé à partir de formes élémentaires : un cercle et des carrés.
+principes graphiques simples, le projet sâ€™est dÃ©ployÃ© autour de notions 
+telles que lâ€™utilisation du noir et blanc, lâ€™accumulation, la trame, et la 
+ligne. Le monde est crÃ©Ã© Ã  partir de formes Ã©lÃ©mentaires : un cercle et des carrÃ©s.
 
-¦ Vous pouvez retrouver le jeu ici ? ! 
-L’idée est de développer le projet également autour du son ; 
+âŒ‚ Vous pouvez retrouver le jeu ici â˜º ! 
+Lâ€™idÃ©e est de dÃ©velopper le projet Ã©galement autour du son ; 
 ainsi, lorsque la boule entrerait en collision avec certains blocs, 
-elle pourrait engendrer une note qui viendrait se mêler au bruit lié au 
-temps qu’il fait, créant ainsi une sorte de partition musicale aléatoire. 
+elle pourrait engendrer une note qui viendrait se mÃªler au bruit liÃ© au 
+temps quâ€™il fait, crÃ©ant ainsi une sorte de partition musicale alÃ©atoire. 
 
 // Transriso
 
--
+
+5 jours, 10 Ã©tudiants, 1 risographie = 50 affiches.
+Ã€ la maniÃ¨re des Transmusicales qui proposent une profusion
+de concerts sur un temps donnÃ©, il sâ€™agissait de
+concevoir graphiquement et produire en un temps trÃ¨s
+limitÃ© un Ã©ventail dâ€™affiches, afin dâ€™explorer les possibilitÃ©s
+techniques et plastiques quâ€™offre la risographie.
 
 // Processing
 
-Expérimentations graphiques autour de l'interactivité 
+
+ExpÃ©rimentations graphiques autour de l'interactivitÃ© 
 (clavier, position souris, clics) avec Processing.
 
 // CROUS
@@ -220,46 +239,84 @@ Expérimentations graphiques autour de l'interactivité
 
 Le pause minute est un service de restauration 
 rapide qui propose un repas qualitatif afin d'optimiser 
-le service actuel du CROUS. À travers des interventions 
-ciblées aussi bien lors de la prise de la commande, 
-que lors du moment du repas (environnement et repas en lui-même), 
-3 scénarios d'usage sont alors établis permettant ainsi 
-une flexibilité du repas : un repas sur place, un repas à 
-emporter, et un repas hybride. Le projet se déploie à travers 
-une stratégie spatiale, une signalétique, une identité du nouveau 
+le service actuel du CROUS. Ã€ travers des interventions 
+ciblÃ©es aussi bien lors de la prise de la commande, 
+que lors du moment du repas (environnement et repas en lui-mÃªme), 
+3 scÃ©narios d'usage sont alors Ã©tablis permettant ainsi 
+une flexibilitÃ© du repas : un repas sur place, un repas Ã  
+emporter, et un repas hybride. Le projet se dÃ©ploie Ã  travers 
+une stratÃ©gie spatiale, une signalÃ©tique, une identitÃ© du nouveau 
 service ainsi qu'un packaging, le kit minute.
-Projet pluridisciplinaire mené avec Louise Dudrut et Céleste Teikiteetini
+Projet pluridisciplinaire menÃ© avec Louise Dudrut et CÃ©leste Teikiteetini
 
-// Transriso expo
-
--
 
 // Research in design
 
--
+
+Si on distingue actuellement le design
+de commande du design dâ€™auteur, quâ€™en
+est-il du statut de la recherche dans le
+design en France ? La crÃ©ation artistique
+et la recherche technologique, qui
+constituaient autrefois des domaines
+nettement sÃ©parÃ©s et quasiment
+impermÃ©ables, sont dÃ©sormais tellement
+intriquÃ©es que lâ€™innovation au sein
+de lâ€™une intÃ©resse (et inflÃ©chit) le
+dÃ©veloppement de lâ€™autre. Comment
+dÃ©terminer la relation quâ€™entretient la
+recherche avec des projets de commandes
+ou sa propre pratique personnelle ?
 
 // RDS .CORP
 
--
+
+.CORP est un collectif de design graphique 
+dont toute une partie du travail sâ€™axe autour 
+dâ€™installations interactives et de projets expÃ©rimentaux interactifs.
+Le collectif se dÃ©finit comme Ã©tant un atelier de crÃ©ation 
+visuelle qui sâ€™investit aussi bien dans lâ€™Ã©laboration et 
+lâ€™Ã©criture des projets artistiques que dans la mise en forme 
+graphique de tout support, quâ€™il soit numÃ©rique ou papier.
+Jâ€™ai choisi le collectif .CORP pour rÃ©aliser ce stage tout 
+dâ€™abord parce que je souhaitais dÃ©couvrir davantage le design 
+interactif et multimÃ©dia, et plus spÃ©cialement Ã  travers des 
+dispositifs qui sâ€™ancrent dans lâ€™espace du fait de ma rÃ©elle 
+sensibilitÃ© pour celui-ci. 
 
 // DIGITAL Creation
 
 
-De plus en plus présente dans notre quotidien, la création numérique 
-s’impose dans les festivals, les galeries, les centres d’art.<br>
-Cette édition présente un état des lieux de la création numérique 
-en questionnant les liens entre création numérique et médias traditionnels. 
-À l'heure du « tout numérique », le cœur même de l’expérience pour le public 
-est la relation qu’il entretient avec l'œuvre, mais également avec ce 
-programme, cette immatérialité.<br><br> 
-<em>En quoi l’instauration d’un dialogue entre les médias traditionnels 
-et la création numérique permet-elle d’engendrer une nouvelle expérience ?</em>
+De plus en plus prÃ©sente dans notre quotidien, la crÃ©ation numÃ©rique 
+sâ€™impose dans les festivals, les galeries, les centres dâ€™art.<br>
+Cette Ã©dition prÃ©sente un Ã©tat des lieux de la crÃ©ation numÃ©rique 
+en questionnant les liens entre crÃ©ation numÃ©rique et mÃ©dias traditionnels. 
+Ã€ l'heure du Â« tout numÃ©rique Â», le cÅ“ur mÃªme de lâ€™expÃ©rience pour le public 
+est la relation quâ€™il entretient avec l'Å“uvre, mais Ã©galement avec ce 
+programme, cette immatÃ©rialitÃ©.<br><br> 
+<em>En quoi lâ€™instauration dâ€™un dialogue entre les mÃ©dias traditionnels 
+et la crÃ©ation numÃ©rique permet-elle dâ€™engendrer une nouvelle expÃ©rience ?</em>
 
 // Chapelle
 
--
+
+Cette Ã©dition retrace le travail dâ€™analyse dâ€™Å“uvres 
+ayant Ã©tÃ© exposÃ©es Ã  la Chapelle des Calvairiennes, Ã  Mayenne. 
+Le concept Ã©ditorial mis en place s'appuie sur un postulat spatial :
+lors de la visite d'une exposition, on explore, on dÃ©ambule, on tourne autour 
+des Å“uvres ; on les synthÃ©tise pour mieux les apprÃ©cier dans
+leur globalitÃ©, dans leur ensemble, mais on les dÃ©taille Ã©galement afin de les
+comprendre intimement. L'Ã©dition s'apparente donc Ã  un guide qui fait Ã©tat
+Ã  la fois du cheminement physique et passÃ©, engendrÃ© par le dÃ©placement dans 
+l'espace de la Chapelle, mais Ã©galement du cheminement mental 
+empruntÃ© lors de l'analyse de ces expositions, et de leur retranscription 
+plastique.
 
 // Refreshing memories
 
--
-
+Dispositif expÃ©rimental utilisant Processing et Arduino, dÃ©veloppÃ© dans le cadre
+du projet de diplÃ´me de ValÃ©riane Holley.
+Ce dispositif permet de crÃ©er des paysages abstraits et sonores incitant l'utilisateur Ã  se 
+projeter, Ã  imaginer l'avenir Ã  partir de donnÃ©es passÃ©es. Il s'agit ici de mettre en relation 
+des sons extraits de vidÃ©os avec des visuels, basÃ©s gÃ©nÃ©rativement sur le test de Rorschach, et 
+automatiquement gÃ©nÃ©rÃ©s par l'intensitÃ© de ces pistes sonores.
