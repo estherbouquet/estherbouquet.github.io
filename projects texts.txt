@@ -91,7 +91,7 @@ quant à cet espace signalisé.
 // A landscape revaluation in Vincennes
 
 
-La Ferme de paris, située au cœur du bois de Vincennes 
+La Ferme de Paris, située au cœur du bois de Vincennes 
 est une exploitation agricole à vocation pédagogique 
 créée en 1989. À ce titre, elle développe des techniques 
 agricoles basées sur le respect de l’environnement et 
@@ -119,6 +119,7 @@ Projet mené avec Alizée Billois.
 
 // Social dynamics and ephemeral common times
 
+GÉNÉRER DES DYNAMIQUES SOCIALES ET DES TEMPS COMMUNS ÉPHÉMÈRES
 
 La ville de Tonnerre, située à 200 km de Paris, 
 en Bourgogne, reste plongée dans une sorte d'inertie, léthargie.
@@ -142,11 +143,11 @@ mais également autour d'une signalétique éphémère conçue pour
 promouvoir l'événement à travers le campus de Beaulieu mais 
 aussi à travers la ville.
 
-// CAPE DE SURVIE
+// CAPES DE SURVIE
 
 
-Développement des idées amorcées lors des sessions précédentes 
-de l'Atelier Lumière. Le spectacle est l'expression d’un 
+Développement des idées amorcées lors des sessions 
+à l'Atelier Lumière d'Olivier de Serres. Le spectacle est l'expression d’un 
 laboratoire d’expérimentations, toujours soutenu par une 
 spontanéité et une inventivité. Il n'y a plus (ou presque) 
 de projecteurs, les danseurs manipulent eux-mêmes la lumière 
@@ -157,7 +158,7 @@ la représentation.
 Ici&Demain 2015 organisé par la ville de Paris pour les 
 étudiants en art qui, comme nous, réalisent des projets artistiques !
 
-// A shipard exhibition in Tonnerre
+// A worksite exhibition in Tonnerre
 
 
 Le centre ville de Tonnerre (Bourgogne) est particulièrement 

@@ -122,6 +122,14 @@ footer p{
   font-weight: bold;
   font-size: 14pt;
 }
+.error a{
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+.error a:hover{
+  border-bottom: 3px solid blue;
+}
 
 /* WALLS */
 
@@ -228,6 +236,13 @@ footer p{
   color: #101010;
   line-height: 1.5;
 }
+.project_text p.english {
+  font-family: "Apercu-Bold-Italic", sans-serif;
+  color: #222222;
+  font-size: 10.8pt;
+  margin-top: 10px;
+  line-height: 1.4;
+}
 
 .project_text a:hover{
   text-decoration: none;
@@ -246,5 +261,11 @@ footer p{
 @font-face {
   font-family: "Apercu-Bold";
   src: url("../fonts/apercu/Apercu_Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Apercu-Bold-Italic";
+  src: url("../fonts/apercu/Apercu_Medium_Italic.otf");
   font-weight: 500;
 }
