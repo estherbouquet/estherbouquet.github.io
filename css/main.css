@@ -37,6 +37,7 @@ a:hover{
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: black;
 }
 
 .container_index, .footer_index {
@@ -45,9 +46,11 @@ a:hover{
 
 .footer_index {
   margin: 10px auto;
+  color: #f2f2f2;
 }
 
 .container_index{
+  background-color: #f2f2f2;
   border: 5px solid black;
   padding: 0 15px 15px 15px;
   max-width: 360px;
