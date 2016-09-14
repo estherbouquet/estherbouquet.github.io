@@ -1,4 +1,7 @@
-﻿// Lighting choreographies
+﻿12.52 15.35
+14.17 15.87
+
+// Lighting choreographies
 
 Discovery of the technical aspect of the light 
 and its uses thanks to the "LightFab" at Olivier de Serres, a 
