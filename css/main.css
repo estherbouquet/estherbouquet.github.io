@@ -228,7 +228,6 @@ footer p{
   border: 3px solid black;
   padding: 2%;
   margin-bottom: 15px;
-  font-family: "LarishNeue", sans-serif;
 }
 
 .project_text h1{
@@ -282,11 +281,5 @@ img.divided_margin_left{
 @font-face {
   font-family: "Apercu-Bold-Italic";
   src: url("../fonts/apercu/Apercu_Medium_Italic.otf");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "LarishNeue";
-  src: url("../fonts/larish/LarishNeueSemibold-Regular.otf");
   font-weight: 500;
 }
