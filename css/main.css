@@ -50,7 +50,7 @@ a:hover{
 .container_index{
   border: 5px solid black;
   padding: 0 15px 15px 15px;
-  max-width: 380px;
+  max-width: 360px;
 }
 .footer_index p, .footer_index a{
   text-align: center;
@@ -63,8 +63,8 @@ a:hover{
   border-bottom: 3px solid blue;
 }
 .container_index a, .container_index h1{
-  font-size: 15.5pt;
-  font-weight: normal;
+  font-size: 14.5pt;
+  font-weight: lighter;
 }
 .container_index h2{
   font-size: 13.8pt;
