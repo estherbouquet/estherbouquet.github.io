@@ -181,7 +181,7 @@ footer p{
   display: block;
   width: 90%;
   position: absolute;
-  bottom: 26px;
+  bottom: 10%;
 }
 
 .preview_item:hover .preview_title{
