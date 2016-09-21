@@ -272,6 +272,27 @@ img.divided_margin_left{
   margin-left: 1%;
 }
 
+.gallery p{
+  font-size: 25px;
+  font-family: "Apercu-Bolder";
+  color: blue;
+  margin-top: 30px;
+}
+.gallery span.problematique{
+  font-size: 25px;
+  font-family: "Apercu-Bolder-Italic";
+  color: blue;
+}
+.col-lg-12 .gallery{
+  padding-left: 0px;
+  padding-right: 2%;
+}
+.gallery p.text_notification{
+  font-size: 15px;
+  text-align: right;
+  margin-top: 100px;
+}
+
 /* IMPORT DE LA TYPO */
 
 @font-face {
@@ -283,5 +304,16 @@ img.divided_margin_left{
 @font-face {
   font-family: "Apercu-Bold-Italic";
   src: url("../fonts/apercu/Apercu_Medium_Italic.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Apercu-Bolder";
+  src: url("../fonts/apercu/Apercu_Bold.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Apercu-Bolder-Italic";
+  src: url("../fonts/apercu/Apercu_Bold_Italic.otf");
   font-weight: 500;
 }
