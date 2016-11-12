@@ -84,7 +84,7 @@ a:hover{
 .nav_menu > div{
   padding-left: 0.5%;
   padding-right: 0.5%;
-  padding-bottom: 1.5%;
+  padding-bottom: 4%;
   border-bottom: black 3px solid;
 }
 .nav_item{
@@ -153,7 +153,6 @@ footer p{
   padding-left: 0.5%;
   padding-right: 0.5%;
   font-size: 13pt;
-  padding-top: 170px;
 }
 
 .preview_wall img{
