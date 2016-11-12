@@ -85,6 +85,7 @@ a:hover{
   padding-left: 0.5%;
   padding-right: 0.5%;
   padding-bottom: 3%;
+  border-bottom: black 3px solid;
 }
 .nav_item{
   border: 3px solid black;
