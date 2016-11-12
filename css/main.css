@@ -155,7 +155,8 @@ footer p{
   font-size: 13pt;
 }
 .preview_wall{
-  padding-top: 170px;}
+  padding-top: 170px;
+}
 
 .preview_wall img{
     width: 100%;
@@ -228,7 +229,7 @@ footer p{
 /*.col-lg-4{
   margin-bottom: 15px;
 }*/
-.padding_top{
+.put_a_content_in_this_block{
   padding-top: 170px;
 }
 
