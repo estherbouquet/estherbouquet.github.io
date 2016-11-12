@@ -149,7 +149,7 @@ footer p{
 /* WALLS */
 
 /* alignement avec le header général appliqué sur toutes les div inclues dans preview_wall*/
-.preview_wall{
+.preview_wall > div{
   padding-left: 0.5%;
   padding-right: 0.5%;
   font-size: 13pt;
