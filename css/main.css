@@ -33,6 +33,10 @@ a:hover{
   border-bottom: 3px solid blue;
 }
 
+.container{
+  background-color: #f2f2f2;
+}
+
 /* INDEX */
 
 .index{
