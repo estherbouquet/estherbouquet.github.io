@@ -228,12 +228,14 @@ footer p{
 /*.col-lg-4{
   margin-bottom: 15px;
 }*/
+.padding_top{
+  padding-top: 170px;
+}
 
 .project_article > div{
   padding-left: 0.5%;
   padding-right: 0.5%;
   font-size: 13pt;
-  padding-top: 170px;
 }
 
 .project_text{
