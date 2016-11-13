@@ -255,8 +255,7 @@ footer p{
 }
 
 /* Transitions */
-a,
-/*.el__transition,*/
+.el__transition,
 .social__icon:before {
 	-webkit-transition: all .3s ease-out;
 	-moz-transition: all .3s ease-out;
