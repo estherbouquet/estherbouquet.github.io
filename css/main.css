@@ -289,6 +289,10 @@ transition: filter 0.75s linear;
   padding-bottom: 4%;
 }
 
+.small_margin_bottom{
+  margin-bottom: 3%;
+}
+
 /* LAYOUT_PROJECTS */
 
 /*.col-lg-4{
