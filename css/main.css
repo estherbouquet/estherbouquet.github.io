@@ -35,6 +35,11 @@ a:hover{
 
 .container{
   background-color: #f2f2f2;
+  -moz-animation: anim 1s linear forwards 3s;
+  -webkit-animation: anim 1s linear forwards 3s;
+  -o-animation: anim 1s linear forwards 3s;
+  -ms-animation: anim 1s linear forwards 3s;
+  animation: anim 1s linear forwards 3s;
 }
 
 /* INDEX */
@@ -156,11 +161,6 @@ footer p{
 }
 .preview_wall{
   padding-top: 170px;
-  -moz-animation: anim 1s linear forwards 3s;
-  -webkit-animation: anim 1s linear forwards 3s;
-  -o-animation: anim 1s linear forwards 3s;
-  -ms-animation: anim 1s linear forwards 3s;
-  animation: anim 1s linear forwards 3s;
 }
 
 .preview_wall img{
