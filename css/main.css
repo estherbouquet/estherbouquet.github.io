@@ -156,6 +156,11 @@ footer p{
 }
 .preview_wall{
   padding-top: 170px;
+  -moz-animation: anim 1s linear forwards 1s;
+  -webkit-animation: anim 1s linear forwards 1s;
+  -o-animation: anim 1s linear forwards 1s;
+  -ms-animation: anim 1s linear forwards 1s;
+  animation: anim 1s cubic-bezier(0.4, 0, 1, 1) forwards 1s;
 }
 
 .preview_wall img{
