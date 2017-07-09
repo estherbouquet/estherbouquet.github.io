@@ -362,14 +362,18 @@ img.divided_margin_left{
 
 .gallery p{
   font-size: 20px;
-  font-family: "Apercu-Bolder";
+  font-family: "Apercu-Reg";
   color: #101010;
   margin-top: 13px;
 }
-.gallery span.problematique{
-  font-size: 25px;
-  font-family: "Apercu-Bolder-Italic";
-  color: blue;
+.gallery p.citation{
+  font-family: "Apercu-Italic";
+}
+
+.gallery p.notes_ref{
+  margin-top: 5%;
+  font-size: 13px;
+  font-family: "Apercu-Reg";
 }
 
 .col-lg-12 .gallery{
@@ -383,6 +387,18 @@ img.divided_margin_left{
 }
 
 /* IMPORT DE LA TYPO */
+
+@font-face {
+  font-family: "Apercu-Reg";
+  src: url("../fonts/apercu/Apercu_Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Apercu-Italic";
+  src: url("../fonts/apercu/Apercu_Italic.otf");
+  font-weight: 500;
+
 
 @font-face {
   font-family: "Apercu-Bold";
