@@ -360,17 +360,17 @@ img.divided_margin_left{
   margin-left: 1%;
 }
 
-.gallery p{
+.gallery > p{
   font-size: 20px;
   font-family: "Apercu-Reg";
   color: #101010;
   margin-top: 13px;
 }
-.gallery p.citation{
+.gallery > p.citation{
   font-family: "Apercu-Italic";
 }
 
-.gallery p.notes_ref{
+.gallery > p.notes_ref{
   margin-top: 5%;
   font-size: 13px;
   font-family: "Apercu-Reg";
@@ -398,6 +398,7 @@ img.divided_margin_left{
   font-family: "Apercu-Italic";
   src: url("../fonts/apercu/Apercu_Italic.otf");
   font-weight: 500;
+}
 
 
 @font-face {
