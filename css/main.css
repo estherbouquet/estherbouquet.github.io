@@ -402,6 +402,17 @@ height: 100%;
 padding-bottom: 1%;
 }
 
+.gallery > .col-md-6.col-lg-6.align_left{
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+.gallery > .col-md-6.col-lg-6.align_right{
+  margin: 0;
+  padding-right: 0;
+  padding-bottom: 1%;
+}
 
 /* IMPORT DE LA TYPO */
 
