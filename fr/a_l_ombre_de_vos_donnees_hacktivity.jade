@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — hack:tivité
+  h1 À L'OMBRE DE VOS DONNÉES — hack:tivité
 
 block project_description
   p.
@@ -24,14 +27,11 @@ block project_description
   p &#9755; hack:tivité est disponible librement sur github en 
     a(href="https://github.com/estherbouquet/hacktivity", target="_blank") cliquant ici !
     o Il n'aurait pu voir le jour sans les contributions et conseils avisés de Valentin Quiédeville et Quentin Dufour.
-  p.
-    <em>English coming soon</em>
-
     
 block project_gallery
   div.gallery
   
-    //img.divided_margin_right(src="./images/diploma_projects/Bouquet_Esther-hacktivity-video_game_notification.jpg")
-    img(src="./images/diploma_projects/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg")
+    //img.divided_margin_right(src="../images/diploma_projects/Bouquet_Esther-hacktivity-video_game_notification.jpg")
+    img(src="../images/diploma_projects/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg")
     div.embed-container
       iframe(src='https://player.vimeo.com/video/227908504', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')

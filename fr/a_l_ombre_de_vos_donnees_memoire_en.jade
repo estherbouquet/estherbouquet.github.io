@@ -1,15 +1,16 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — English thesis
+  h1 À L'OMBRE DE VOS DONNÉES — Mémoire en anglais
 
 block project_description
   p.
     Cette reflexion en anglais a été rédigée suite à l'écriture de mon mémoire en français. <br>
     Il s'agit dans un premier temps de poser les bases de la contextualisation pour dans un second temps, envisager un état des lieux de l'avancée de la recherche graphique.
   p Vous pouvez télécharger le pdf en cliquant ici.
-  p.
-    <em>English coming soon</em>
     
 block project_written_text
   div.gallery.col-md-11.col-lg-11

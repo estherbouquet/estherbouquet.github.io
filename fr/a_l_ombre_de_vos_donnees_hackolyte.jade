@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — hack:olyte
+  h1 À L'OMBRE DE VOS DONNÉES — hack:olyte
 
 block project_description
   p.
@@ -24,15 +27,12 @@ block project_description
     que ne peut pas faire l’interface, sur la quantité de 
     métadonnées récupérées.
   p &#9755; Ce projet a été développé suite à des échanges avec Olivier Desbiey du Laboratoire Innovation et Prospective de la CNIL.
-  p.
-    <em>English coming soon</em>
-
     
 block project_gallery
   div.gallery
   
-    img.divided_margin_right(src="./images/diploma_projects/Bouquet_Esther-hackolyte_interface-mockup_index.jpg")
-    img.divided_margin_left(src="./images/diploma_projects/Bouquet_Esther-hackolyte-interface_et_plugin_coupe.jpg")
+    img.divided_margin_right(src="../images/diploma_projects/Bouquet_Esther-hackolyte_interface-mockup_index.jpg")
+    img.divided_margin_left(src="../images/diploma_projects/Bouquet_Esther-hackolyte-interface_et_plugin_coupe.jpg")
     div.embed-container
       iframe(src='https://player.vimeo.com/video/226751109', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
     div.embed-container

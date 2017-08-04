@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
+
+block put_a_configuration_in_this_block
+  - var lang = "fr"
 
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — hack:umule&#8239;!
+  h1 À L'OMBRE DE VOS DONNÉES — hack:umule&#8239;!
 
 block project_description
   p.
@@ -12,18 +15,14 @@ block project_description
     sûr son type de données fétiches déjà présentes dans sa base de données dès le départ, 
     lui conférant ainsi des bonus. 
   p &#9755; hack:umule est un jeu éducatif développé avec l’aide et le soutien indefectible du GRAL, le Gang Rennais des Auteurs Ludiques, de façon à ce que le jeu en lui-même puisse être réellement prototypé et qu'il permette d'apprendre des connaissances aux joueurs de façon ludique et détournée.
-  
-  p.
-    <em>English coming soon</em>
-
-    
+      
 block project_gallery
   div.gallery
       
-    img.divided_margin_right(src="./images/diploma_projects/Bouquet_Esther-hackumule-packaging.jpg")
-    img.divided_margin_left(src="./images/diploma_projects/Bouquet_Esther-hackumule-rules_corporations.jpg")
-    img(src="./images/diploma_projects/Bouquet_Esther-hackumule-cards.jpg")
-    img.divided_margin_right(src="./images/diploma_projects/Bouquet_Esther-hackumule-player01.jpg")
-    img.divided_margin_left(src="./images/diploma_projects/Bouquet_Esther-hackumule-player02.jpg")
-    img(src="./images/diploma_projects/Bouquet_Esther-hackumule-player03.jpg")
-    img(src="./images/diploma_projects/Bouquet_Esther-hackumule-player04.jpg")
+    img.divided_margin_right(src="../images/diploma_projects/Bouquet_Esther-hackumule-packaging.jpg")
+    img.divided_margin_left(src="../images/diploma_projects/Bouquet_Esther-hackumule-rules_corporations.jpg")
+    img(src="../images/diploma_projects/Bouquet_Esther-hackumule-cards.jpg")
+    img.divided_margin_right(src="../images/diploma_projects/Bouquet_Esther-hackumule-player01.jpg")
+    img.divided_margin_left(src="../images/diploma_projects/Bouquet_Esther-hackumule-player02.jpg")
+    img(src="../images/diploma_projects/Bouquet_Esther-hackumule-player03.jpg")
+    img(src="../images/diploma_projects/Bouquet_Esther-hackumule-player04.jpg")

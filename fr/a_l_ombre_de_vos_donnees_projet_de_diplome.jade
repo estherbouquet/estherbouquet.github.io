@@ -1,5 +1,8 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
   h1 À L'OMBRE DE VOS DONNÉES — Projet de diplôme
 
@@ -37,12 +40,12 @@ block project_description
 block project_gallery
   div.gallery
     a(href="./fr/a_l_ombre_de_vos_donnees_hackolyte.html") 
-      img(src="./images/diploma_projects/Bouquet_Esther-hackolyte_interface-mockup_index.jpg")
+      img(src="../images/diploma_projects/Bouquet_Esther-hackolyte_interface-mockup_index.jpg")
     a(href="./fr/a_l_ombre_de_vos_donnees_hackumule.html") 
-      img(src="./images/diploma_projects/Bouquet_Esther-hackumule-player02.jpg")
+      img(src="../images/diploma_projects/Bouquet_Esther-hackumule-player02.jpg")
     a(href="./fr/a_l_ombre_de_vos_donnees_hacktivity.html") 
-      img(src="./images/diploma_projects/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg")
+      img(src="../images/diploma_projects/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg")
     a(href="./fr/a_l_ombre_de_vos_donnees_hackcess.html") 
-      img(src="./images/diploma_projects/Bouquet_Esther-hackcess_smartphone.jpg")
+      img(src="../images/diploma_projects/Bouquet_Esther-hackcess_smartphone.jpg")
     a(href="./fr/a_l_ombre_de_vos_donnees_hacktion.html") 
-      img(src="./images/diploma_projects/01Bouquet_Esther-hacktion_site_ok3_version_site_terminus.gif")
+      img(src="../images/diploma_projects/01Bouquet_Esther-hacktion_site_ok3_version_site_terminus.gif")

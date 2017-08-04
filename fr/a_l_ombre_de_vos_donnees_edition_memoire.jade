@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
+
+block put_a_configuration_in_this_block
+  - var lang = "fr"
 
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — Editorial design 
+  h1 À L'OMBRE DE VOS DONNÉES — Édition
 
 block project_description
   p.
@@ -10,22 +13,20 @@ block project_description
     Le concept éditorial repose sur le réinvestissement des différents mécanismes
     de la navigation sur le web (scroll, effet parallaxe, superposition, stratification, ...) 
     en se les appropriant spécialement pour le support de l'édition.
-  p.
-    <em>English coming soon</em>
 
 block project_gallery
   div.gallery
-    img.divided_margin_right(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Global_View_01.jpg")
-    img.divided_margin_left(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Global_View_02.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Cover.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Intro.jpg")
-    img.divided_margin_right(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Text_01.jpg")
-    img.divided_margin_left(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_Text_02.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_transition.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_part_2.jpg")
-    img.divided_margin_right(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_img_01.jpg")
-    img.divided_margin_left(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_img_02.jpg")
-    img.divided_margin_right(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_img_03.jpg")
-    img.divided_margin_left(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_img_04.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_close_up.jpg")
-    img(src="./images/master_thesis/Bouquet_Esther-Master_Thesis_final.jpg")
+    img.divided_margin_right(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Global_View_01.jpg")
+    img.divided_margin_left(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Global_View_02.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Cover.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Intro.jpg")
+    img.divided_margin_right(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Text_01.jpg")
+    img.divided_margin_left(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_Text_02.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_transition.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_part_2.jpg")
+    img.divided_margin_right(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_img_01.jpg")
+    img.divided_margin_left(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_img_02.jpg")
+    img.divided_margin_right(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_img_03.jpg")
+    img.divided_margin_left(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_img_04.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_close_up.jpg")
+    img(src="../images/master_thesis/Bouquet_Esther-Master_Thesis_final.jpg")

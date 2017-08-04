@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — hack:tion
+  h1 À L'OMBRE DE VOS DONNÉES — hack:tion
 
 block project_description
   p.
@@ -24,16 +27,12 @@ block project_description
     
   p.
     <u> Plus de photos bientôt !</u>
-  
-  p.
-    <em>English coming soon</em>
-
     
 block project_gallery
   div.gallery
       
-    img.divided_margin_right(src="./images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_01.jpg")
-    img.divided_margin_left(src="./images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_04.jpg")
-    img.divided_margin_right(src="./images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_02.jpg")
-    img.divided_margin_left(src="./images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_03.jpg")
-    img(src="./images/diploma_projects/01Bouquet_Esther-hacktion_site_ok3_version_site_terminus.gif")
+    img.divided_margin_right(src="../images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_01.jpg")
+    img.divided_margin_left(src="../images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_04.jpg")
+    img.divided_margin_right(src="../images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_02.jpg")
+    img.divided_margin_left(src="../images/diploma_projects/01Bouquet_Esther-hacktion-fiches_techniques_03.jpg")
+    img(src="../images/diploma_projects/01Bouquet_Esther-hacktion_site_ok3_version_site_terminus.gif")

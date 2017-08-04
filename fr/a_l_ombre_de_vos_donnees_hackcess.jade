@@ -1,7 +1,10 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
+
+block put_a_configuration_in_this_block
+  - var lang = "fr"
 
 block project_title
-  h1 IN THE SHADOW OF YOUR DATA — hack:cess
+  h1 À L'OMBRE DE VOS DONNÉES — hack:cess
 
 block project_description
   p.
@@ -39,14 +42,10 @@ block project_description
 
   p.
     <u> Plus de photos/vidéos bientôt !</u>
-
-  p.
-    <em>English coming soon</em>
-
     
 block project_gallery
   div.gallery
-    img(src="./images/diploma_projects/Bouquet_Esther-hackcess_smartphone.jpg")
+    img(src="../images/diploma_projects/Bouquet_Esther-hackcess_smartphone.jpg")
     div.embed-container
       iframe(src='https://player.vimeo.com/video/227895295', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
     div.embed-container
