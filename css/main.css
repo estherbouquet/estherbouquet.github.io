@@ -23,6 +23,7 @@ a:hover{
   padding-left: 0.5%;
   padding-top: 25px;
   padding-bottom: 20px;
+  padding-right: 0.6%;
 }
 .eb_header, .eb_header h1{
   font-size: 12pt;
@@ -31,6 +32,21 @@ a:hover{
 .eb_header a:hover{
   text-decoration: none;
   border-bottom: 3px solid blue;
+}
+
+.language_version{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.eb_header > .col-lg-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.eb_header > .col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .container{
