@@ -1,3 +1,5 @@
+block put_a_configuration_in_this_block
+  - var lang = 'en'
 doctype html
 
 html
@@ -25,38 +27,74 @@ html
             div.col-md-12.eb_header
               header.col-lg-6.col-md-6
                 h1
-                  a(href="./index.html") ESTHER BOUQUET | GRAPHIC & SPACE DESIGNER 
+                  a(href="./index.html") ESTHER BOUQUET | GRAPHIC & SPACE DESIGNER
               header.col-lg-6.col-md-6.language_version
                 span
-                  a(href="./index.html") FR 
+                  a(href="./fr/index.html") FR 
                 span | 
                 span
                   a(href="./index.html") EN
           div.row.nav_menu
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./index.html") recent work
+                  case lang
+                    when 'fr'
+                      a(href="./fr/index.html") projets récents
+                    when 'en'
+                      a(href="./index.html") recent work
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./projects.html") projects
+                  case lang
+                    when 'fr'
+                      a(href="./fr/projects.html") projets
+                    when 'en'
+                      a(href="./projects.html") projects
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./lab.html") lab'
+                  case lang
+                    when 'fr'
+                      a(href="./fr/lab.html") labo
+                    when 'en'
+                      a(href="./lab.html") lab'
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./written_work.html") written work
+                  case lang
+                    when 'fr'
+                      a(href="./fr/travaux_ecrits.html") travaux écrits
+                    when 'en'
+                      a(href="./written_work.html") written work    
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./diploma.html") diploma
+                  case lang 
+                    when 'fr'
+                      a(href="./fr/diplome.html") diplôme
+                    when 'en'
+                      a(href="./diploma.html") diploma
               div.col-md-2.col-lg-2.col-sm-4.col-xs-6
                 div.nav_item
-                  a(href="./about_and_contact.html") about & contact
+                  case lang 
+                    when 'fr'
+                      a(href="./fr/a_propos_et_contact.html") à propos & contact
+                    when 'en'
+                      a(href="./about_and_contact.html") about & contact
 
       block put_a_content_in_this_block
         div.error
           p There is nothing here! (Well, not yet.)
           
     footer
-        p Contact me at hello@estherbouquet.com
-        p Please, do not use content without asking me first. 
-        p  All content copyright Esther Bouquet © 2016 • All rights reserved.
+      case lang
+        when 'fr'
+          p Contactez moi : hello@estherbouquet.com
+        when 'en'
+          p Contact me at hello@estherbouquet.com
+      case lang
+        when 'fr'
+          p Demandez moi avant d'utiliser mon contenu :)
+        when 'en'
+          p Please, do not use content without asking me first. 
+      case lang
+        when 'fr'
+          p  All content copyright Esther Bouquet © 2017 • Tous droits réservés.
+        when 'en'
+          p  All content copyright Esther Bouquet © 2017 • All rights reserved.
