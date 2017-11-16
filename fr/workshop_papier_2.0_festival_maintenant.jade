@@ -1,0 +1,28 @@
+extends ../templates/layout_projects.jade
+
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+
+block project_title
+  h1 WORKSHOP PAPIER 2.0 — Ne nous froissons pas !
+
+block project_description
+  p.
+    Participation au workshop de création autour du papier augmenté, organisé par le festival Maintenant, à Rennes. <br>
+    Expérience interactive proposant une nouvelle expérience du toucher. Chaque visiteur était invité à manipuler 
+    une feuille de papier (froisser, effleurer, plier, rouler, caresser, ...) générant alors une réaction lumineuse 
+    unique. Chacune de ces interactions était par la suite retranscrite graphiquement et archivée, formant ainsi une 
+    collection, un ensemble des expériences individuelles de la soirée.
+  p Vues du projet à 2'43 et 4'23.
+  p &#9755; Le code du projet est 
+    a(href ="https://github.com/superboum/workshop_papier_2.0", target ="_blank") disponible en cliquant ici !
+
+block project_gallery
+  div.gallery
+    img(src="../images/workshop_papier_2.0/Bouquet_Esther-Workshop_papier_2.0-01.jpg")
+    img(src="../images/workshop_papier_2.0/Bouquet_Esther-Workshop_papier_2.0-02.jpg")
+    img(src="../images/workshop_papier_2.0/Bouquet_Esther-Workshop_papier_2.0-03.jpg")
+    img(src="../images/workshop_papier_2.0/Bouquet_Esther-Workshop_papier_2.0-04.jpg")
+    
+    div.embed-container
+      iframe(src='https://player.vimeo.com/video/198165906', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
