@@ -1,18 +1,23 @@
-extends ./templates/layout_projects.jade
+extends ../templates/layout_projects.jade
 
+block put_a_configuration_in_this_block
+  - var lang = "fr"
+  
 block project_title
-  h1 INTERNSHIP REPORT — IREGULAR
+  h1 RAPPORT DE STAGE — IREGULAR
 
 block project_description
   p.
-    Iregular is a creative studio which works at the intersection of art and technology. The studio approaches design using 
-    a code-driven and real-time mindset. Based in Montreal, it fits into the digital dynamic led by this multicultural city.
-  p.
-    Their work mix light, sound and geometry with mathematics and algorithms. They create what they called "systems" with infinite possibilities, 
-    and prefer creating by making.
+    Iregular est un studio qui envisage le design par le code avec la notion de temps 
+    réel. Basé à Montréal, il s’inscrit dans la dynamique numérique engagée par cette ville multiculturelle.
 
-  p &#9755; By questionning the use of code in design through the writing of this internship report, I have decided to also question its use through my own practice. The pictures presented in this editorial design were randomly placed by a Processing program developped for this occasion and 
-    a(href ="https://github.com/superboum/imager", target ="_blank") available here.
+  p.
+    Leur travail allie la lumière, le son et la géométrie aux mathématiques et aux 
+    algorithmes. Ils créent alors ce qu’ils appellent des «&#8239;systèmes&#8239;» aux possibilités infinies 
+    et favorisent la création par l’expérimentation. 
+
+  p &#9755; En questionnant par moi-même l'utilisation du code dans le design à travers l'écriture de ce rapport, j'ai décidé d'interroger son emploi à travers ma propre pratique. Les images présentes dans cette édition ont été placées aléatoirement par un programme développé à l'occasion et 
+    a(href ="https://github.com/superboum/imager", target ="_blank") disponible ici.
     
 
 block project_gallery
