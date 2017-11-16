@@ -2,3 +2,27 @@ extends ../templates/layout_projects.jade
 
 block put_a_configuration_in_this_block
   - var lang = "fr"
+
+block project_title
+  h1 STAGE À IREGULAR — Draaimolen Festival
+
+block project_description
+  p.
+    FRAMES est une scénographie conçue durant mon stage à Iregular. Elle est composée de sept cadres d’acryliques flottants sur lesquels une projection est mappée. 
+    Le projet a été conçu comme une couche numérique superposée à la nature entourant la scène au Draaimolen Festival à Tilburg, Pays-Bas.
+    
+block project_gallery
+  div.gallery
+    img.divided_margin_right(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_experimentation_03.jpg")
+    img.divided_margin_left(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_experimentation_02.jpg")
+    img(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_experimentation_05.jpg")
+    img.divided_margin_right(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_experimentation_01.jpg")
+    img.divided_margin_left(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_01.jpg")
+    img(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_02.jpg")
+    img.divided_margin_right(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_06.jpg")
+    img.divided_margin_left(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_05.jpg")
+    img.divided_margin_right(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_03.jpg")
+    img.divided_margin_left(src="../images/iregular_draaimolen/Bouquet_Esther-Draaimolen_stage_04.jpg")
+    
+    div.embed-container
+      iframe(src='https://player.vimeo.com/video/186379212', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
