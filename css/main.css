@@ -376,20 +376,62 @@ img.divided_margin_left{
   margin-left: 1%;
 }
 
+img.marg_bot{
+  margin-bottom: 1%;
+}
+
 .gallery > p{
   font-size: 20px;
-  font-family: "Apercu-Reg";
+  font-family: "Alegreya-medium";
   color: #101010;
   margin-top: 13px;
 }
 .gallery > p.citation{
-  font-family: "Apercu-Italic";
+  font-size: 22px;
+  font-family: "Alegreya-reg-it";
+}
+
+.gallery > p.description{
+  font size : 10px;
+  font-family: "Alegreya-thin-it";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p.description > a{
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+p.citation > a{
+  text-decoration: underline;
+  color: blue;
 }
 
 .gallery > p.notes_ref{
   margin-top: 5%;
   font-size: 13px;
-  font-family: "Apercu-Reg";
+  font-family: "Alegreya-reg";
+}
+
+.gallery > h1{
+  font-family: "Alegreya-black";
+  font-size: 25pt;
+  margin-bottom: 30px;
+  margin-top: 0.5em;
+}
+
+.gallery > h2{
+  font-family: "Alegreya-bold";
+  font-size: 20pt;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.citation > a{
+  font-size: 22px;
+  font-family: "Alegreya-reg-it";
 }
 
 .col-lg-12 .gallery{
@@ -465,6 +507,48 @@ padding-bottom: 1%;
 @font-face {
   font-family: "Apercu-Bolder-Italic";
   src: url("../fonts/apercu/Apercu_Bold_Italic.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-medium";
+  src: url("../fonts/alegreya/AlegreyaSans-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-medium-it";
+  src: url("../fonts/alegreya/AlegreyaSans-MediumItalic.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-reg";
+  src: url("../fonts/alegreya/AlegreyaSans-Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-reg-it";
+  src: url("../fonts/alegreya/AlegreyaSans-Italic.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-black";
+  src: url("../fonts/alegreya/AlegreyaSans-Black.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-bold";
+  src: url("../fonts/alegreya/AlegreyaSans-Bold.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya-thin-it";
+  src: url("../fonts/alegreya/AlegreyaSans-ThinItalic.otf");
   font-weight: 500;
 }
 
