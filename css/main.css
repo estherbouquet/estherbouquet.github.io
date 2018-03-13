@@ -585,6 +585,9 @@ padding-bottom: 1%;
   footer{
     font-size: 9px;
   }
+  .preview_wall{
+      padding-top:190px;
+  }
 }
 
 @media (max-width: 990px){
