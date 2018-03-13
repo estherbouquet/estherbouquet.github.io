@@ -10,10 +10,22 @@
       <loc>http://www.estherbouquet.com/index.html</loc>
    </url>
    <url>
-      <loc>http://www.estherbouquet.com/about_and_contact.html</loc>
+      <loc>http://www.estherbouquet.com/projects.html</loc>
    </url>
    <url>
-      <loc>http://www.estherbouquet.com/all_projects.html</loc>
+      <loc>http://www.estherbouquet.com/recent_work.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/lab.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/written_work.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/diploma.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/about_and_contact.html</loc>
    </url>
    <url>
       <loc>http://www.estherbouquet.com/art_in_context_Chapelle_des_Calvairiennes.html</loc>
@@ -29,9 +41,6 @@
    </url>
    <url>
       <loc>http://www.estherbouquet.com/digital_creation_art_design_machines.html</loc>
-   </url>
-   <url>
-      <loc>http://www.estherbouquet.com/diploma.html</loc>
    </url>
    <url>
       <loc>http://www.estherbouquet.com/etre_au_monde.html</loc>
@@ -94,9 +103,6 @@
       <loc>http://www.estherbouquet.com/iregular_draaimolen_festival.html</loc>
    </url>
    <url>
-      <loc>http://www.estherbouquet.com/lab.html</loc>
-   </url>
-   <url>
       <loc>http://www.estherbouquet.com/landscape_revaluation_Vincennes_Paris.html</loc>
    </url>
    <url>
@@ -113,12 +119,6 @@
    </url>
    <url>
       <loc>http://www.estherbouquet.com/professional_project_space_design_Tonnerre_Bourgogne.html</loc>
-   </url>
-   <url>
-      <loc>http://www.estherbouquet.com/projects.html</loc>
-   </url>
-   <url>
-      <loc>http://www.estherbouquet.com/recent_work.html</loc>
    </url>
    <url>
       <loc>http://www.estherbouquet.com/refreshing_memories.html</loc>
@@ -139,6 +139,63 @@
       <loc>http://www.estherbouquet.com/workshop_papier_2.0_festival_maintenant.html</loc>
    </url>
    <url>
-      <loc>http://www.estherbouquet.com/written_work.html</loc>
+      <loc>http://www.estherbouquet.com/experimentations_processing.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_edition_memoire.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_experimentations.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_hackcess.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_hackolyte.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_hacktion.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_hacktivity.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_hackumule.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_memoire_en.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_memoire_fr.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_mind_mapping.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_l_ombre_de_vos_donnees_projet_de_diplome.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/a_propos_et_contact.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/index.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/iregular_aim_festival.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/iregular_delete.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/iregular_draaimolen_festival.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/les_transrisographiques_exposition.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/projets.html</loc>
+   </url>
+   <url>
+      <loc>http://www.estherbouquet.com/fr/workshop_papier_2.0_festival_maintenant.html</loc>
    </url>
 </urlset>
