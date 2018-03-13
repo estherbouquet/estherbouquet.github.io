@@ -553,20 +553,24 @@ padding-bottom: 1%;
 }
 
 @media (max-width: 420px){
-   .eb_header h1 {
+   .eb_header > a {
      font-size: 8pt;
      text-align: center;
    }
-   .nav_item a{
-     font-size: 10pt;
+
+   .title{
+     font-size: 8pt;
+   }
+   .nav_item > a{
+     font-size: 13pt;
    }
    .nav_item, .project_text {
      border: 2px solid black;
    }
-   .project_text p, a{
+   .project_text > p, .project_text > a{
      font-size: 9pt;
    }
-   .project_text h1 {
+   .project_text > h1 {
      font-size: 9pt;
    }
    .project_text p.english{
@@ -584,9 +588,6 @@ padding-bottom: 1%;
   }
   footer{
     font-size: 9px;
-  }
-  .preview_wall{
-      padding-top:185px;
   }
 }
 
