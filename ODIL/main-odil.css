@@ -1,0 +1,62 @@
+html,body,p {
+    font-size: 14pt;
+    color : black;
+    font-family: Ginto-Reg;
+}
+
+p, a, p > .auteur, p >.intro, {
+    font-family: Ginto-Reg;
+}
+
+article > p > span, article > p.auteur {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 12pt;
+}
+article > p.auteur > a {
+    background-color: black;
+    color: white
+}
+
+h1{
+    font-family: Coign-Bold;
+    font-size: 70pt;
+    text-transform : lowercase;
+    font-variant : small-caps;
+    font-style: italic;
+/*    transform: skewX(-7deg);*/
+    margin-top:0.2em;
+    margin-bottom: 0.1em;
+    line-height: 0.8em;
+    font-kerning :normal;
+}
+
+article{
+    max-width:384px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* suppression des balises inutiles */ 
+img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy,  #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
+    display : none;
+}
+
+a{
+    text-decoration:none;
+    color : black;
+}
+
+/* importation des typos */
+
+@font-face{
+    font-family : Coign-Bold;
+    src: url(fonts/coign-47-bold-pro.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : Ginto-Reg;
+    src: url(fonts/Ginto-Regular.ttf) format('truetype');
+    font-weight: 500;
+}
