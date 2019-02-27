@@ -1,0 +1,40 @@
+html,body {
+    font-size: 12pt;
+    color : black;
+    font-family: Ginto-Reg;
+}
+
+h1{
+    font-family: Coign-Bold;
+    font-size: 60pt;
+    color : black;
+    text-transform : lowercase;
+    font-variant : small-caps;
+
+    margin-top:0.1em;
+    margin-bottom: 0.1em;
+}
+
+.article{
+/*    width:384px;*/
+}
+
+/* suppression des balises inutiles */ 
+img, a, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy, #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, #privacy-banner, .clear, .footer{
+    display : none;
+}
+
+
+/* importation des typos */
+
+@font-face{
+    font-family : Coign-Bold;
+    src: url(./fonts/coign-47-bold-pro.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : Ginto-Reg;
+    src: url(./fonts/Ginto-Regular.ttf format('truetype'));
+    font-weight: 500;
+}
