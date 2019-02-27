@@ -1,3 +1,11 @@
+html, body {
+    width:384px;
+    overflow-x: hidden;
+    margin:0;
+/*    height:200px;
+    overflow-y:hidden;*/
+}
+
 html,body,p {
     font-size: 14pt;
     color : black;
@@ -9,12 +17,18 @@ p, a, p > .auteur, p >.intro, {
 }
 
 article > p > span, article > p.auteur {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    font-size: 12pt;
+    /*text-transform: lowercase;*/
+    text-transform:uppercase;
+    font-size: 10pt;
+    margin-top: 1.5em;
+    margin-bottom:1.5em;
 }
 article > p.auteur > a {
     background-color: black;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
     color: white
 }
 
@@ -38,7 +52,7 @@ article{
 }
 
 /* suppression des balises inutiles */ 
-img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy,  #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
+img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed,  #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, hr, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
     display : none;
 }
 
