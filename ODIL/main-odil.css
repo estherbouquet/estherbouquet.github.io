@@ -7,12 +7,19 @@ html, body {
 }
 
 html,body,p {
-    font-size: 14pt;
+    font-size: 11pt;
     color : black;
     font-family: Ginto-Reg;
+    line-height: 1.3em;
 }
 
-p, a, p > .auteur, p >.intro, {
+p.intro {
+    font-family: Ginto-Thin-It;
+    font-size: 14pt;
+    line-height: 1.3em;
+}
+
+p, a, p > .auteur {
     font-family: Ginto-Reg;
 }
 
@@ -52,12 +59,12 @@ article{
 }
 
 /* suppression des balises inutiles */ 
-img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed,  #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, hr, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
+img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed, article > p.auteur, #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, hr, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
     display : none;
 }
 
 a{
-    text-decoration:none;
+/*    text-decoration:none;*/
     color : black;
 }
 
@@ -72,5 +79,11 @@ a{
 @font-face{
     font-family : Ginto-Reg;
     src: url(fonts/Ginto-Regular.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : Ginto-Thin-It;
+    src: url(fonts/Ginto-Thin-Italic.ttf) format('truetype');
     font-weight: 500;
 }
