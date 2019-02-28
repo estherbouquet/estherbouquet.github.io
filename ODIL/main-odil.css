@@ -7,16 +7,16 @@ html, body {
 }
 
 html,body,p {
-    font-size: 11pt;
+    font-size: 19pt;
     color : black;
     font-family: Ginto-Reg;
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 
 p.intro {
     font-family: Ginto-Thin-It;
-    font-size: 14pt;
-    line-height: 1.3em;
+    font-size: 21pt;
+    line-height: 1.2em;
 }
 
 p, a, p > .auteur {
@@ -41,7 +41,7 @@ article > p.auteur > a {
 
 h1{
     font-family: Coign-Bold;
-    font-size: 70pt;
+    font-size: 100pt;
     text-transform : lowercase;
     font-variant : small-caps;
     font-style: italic;
@@ -52,10 +52,19 @@ h1{
     font-kerning :normal;
 }
 
+h2{
+    font-family: Coign-Bold;
+    font-size: 50pt;
+    text-transform : lowercase;
+    font-variant : small-caps;
+    font-style: italic;
+    font-kerning :normal;
+}
+
 article{
     max-width:384px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* suppression des balises inutiles */ 
