@@ -24,6 +24,16 @@ ul {
   font-size: 30px;
 }
 
+.avousdejouer{
+  margin-bottom: 0;
+}
+
+img{
+  float: right;
+  display: block;
+  margin-right: 65px;
+}
+
 h1{
     font-family: "Coign-Bold";
     display: inline;
