@@ -10,8 +10,8 @@ p{
 }
 
 li{
-  font-size: 32px;
-  line-height: 1.5em;
+  font-size: 30px;
+  line-height: 1.4em;
 }
 
 ul {
@@ -21,6 +21,7 @@ ul {
 .underlined{
   border-bottom: 1px solid;
   display: inline;
+  font-size: 30px;
 }
 
 h1{
@@ -36,7 +37,6 @@ h1{
     margin-bottom: 0.1em;
     line-height: 0.8em;
     font-kerning: normal;
-    margin-left: 10px;
 }
 
 .introduction{
