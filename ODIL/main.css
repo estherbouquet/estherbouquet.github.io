@@ -1,7 +1,7 @@
 h1{
-    font-family: Coign-Bold;
+    font-family: "Coign-Bold";
     display: inline;
-    font-size: 50pt;
+    font-size: 250pt;
     text-transform : lowercase;
     font-variant : small-caps;
     font-style: italic;
@@ -11,11 +11,11 @@ h1{
     margin-top:0.2em;
     margin-bottom: 0.1em;
     line-height: 0.8em;
-    font-kerning :normal;
+    font-kerning: normal;
 }
 
 @font-face{
-    font-family : Coign-Bold;
+    font-family : "Coign-Bold";
     src: url(fonts/coign-47-bold-pro.ttf) format('truetype');
     font-weight: 500;
 }
