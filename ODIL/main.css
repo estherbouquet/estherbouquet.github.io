@@ -4,11 +4,20 @@ html, body, p, h2 {
 }
 
 p{
-  font-size: 50px;
+  font-size: 38px;
+}
+
+li{
+  font-size: 32px;
 }
 
 ul {
   list-style-type: circle;
+}
+
+.underlined{
+  border-bottom: 1px solid;
+  display: inline;
 }
 
 h1{
