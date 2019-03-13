@@ -1,3 +1,7 @@
+html, body, p, h2 {
+  font-family: "Ginto-Reg";
+}
+
 h1{
     font-family: "Coign-Bold";
     display: inline;
@@ -14,8 +18,25 @@ h1{
     margin-left: 10px;
 }
 
+form{
+  margin-top: 120px;
+}
+
+h2{
+    background: black;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+
 @font-face{
     font-family : "Coign-Bold";
     src: url(fonts/coign-47-bold-pro.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : "Ginto-Reg";
+    src: url(fonts/Ginto-Regular.ttf) format('truetype');
     font-weight: 500;
 }
