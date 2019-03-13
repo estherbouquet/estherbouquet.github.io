@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./main.css">
+  <title>Chroniques sur mesure </title>
+</head>
+
+<body>
+  <h1>Chroniques sur mesure</h1>
+  <form>
+    <h2>Sélectionnez une rubrique :</h2>
+    <div>
+      <input type="radio" id="tech" name="rubrique" value="https://www.lessor42.fr/economie/tech-et-medias/1" checked>
+      <label for="tech">Tech & Medias</label>
+
+      <input type="radio" id="societe" name="rubrique" value="https://www.lessor42.fr/actualites/societe/">
+      <label for="societe">Société</label>
+
+      <input type="radio" id="politique" name="rubrique" value="https://www.lessor42.fr/actualites/politique/">
+      <label for="politique">Politique</label>
+
+      <h2>Sélectionnez un nombre :</h2>
+      <input type="radio" id="1" name="nombre" value="1" checked>
+      <label for="1">1</label>
+
+      <input type="radio" id="2" name="nombre" value="2">
+      <label for="2">2</label>
+
+      <input type="radio" id="3" name="nombre" value="3">
+      <label for="3">3</label>
+    </div>
+    <div>
+      <button type="submit">Imprimer</button>
+    </div>
+  </form>
+  <pre id="log">
+  </pre>
+
+  <script>
+  var form = document.querySelector("form");
+  var log = document.querySelector("#log");
+
+  form.addEventListener("submit", function(event) {
+    var data = new FormData(form);
+    var output = "";
+    for (const entry of data) {
+      output = entry[0] + "=" + entry[1] + "\r";
+    };
+    log.innerText = output;
+    event.preventDefault();
+  }, false);
+
+  </script>
+
+</body>
+</html>
