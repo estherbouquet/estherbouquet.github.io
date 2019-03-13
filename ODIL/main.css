@@ -27,6 +27,7 @@ h2{
     color: white;
     display: inline;
     padding: 10px;
+    font-weight: normal;
 }
 
 @font-face{
