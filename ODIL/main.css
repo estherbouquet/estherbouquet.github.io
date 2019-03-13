@@ -5,6 +5,7 @@ h1{
     text-transform : lowercase;
     font-variant : small-caps;
     font-style: italic;
+    color: pink;
     border-bottom: 7px solid black;
 /*    transform: skewX(-7deg);*/
     margin-top:0.2em;
