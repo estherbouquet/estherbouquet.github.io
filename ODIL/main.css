@@ -1,17 +1,17 @@
 h1{
     font-family: "Coign-Bold";
     display: inline;
-    font-size: 250pt;
+    font-size: 170pt;
     text-transform : lowercase;
     font-variant : small-caps;
     font-style: italic;
-    color: pink;
     border-bottom: 7px solid black;
 /*    transform: skewX(-7deg);*/
     margin-top:0.2em;
     margin-bottom: 0.1em;
     line-height: 0.8em;
     font-kerning: normal;
+    margin-left: 10px;
 }
 
 @font-face{
