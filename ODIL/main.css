@@ -1,6 +1,7 @@
 html, body, p, h2 {
   font-family: "Ginto-Thin-It";
   width: 100%;
+  padding-left: 10px;
 }
 
 p{
@@ -37,7 +38,7 @@ h1{
 }
 
 .introduction{
-  margin-left: 10px;
+  margin-left: 25px;
   margin-top: 50px;
   width: 80%;
 }
