@@ -8,6 +8,7 @@
   }
 
  let form = document.getElementById("form");
+ let output = document.getElementById("output");
 
  form.addEventListener("submit", function(e) {
  	e.preventDefault();
@@ -44,7 +45,8 @@
  		xhr.open("POST", 'https://httpbin.org/post', true);
  		xhr.setRequestHeader("Content-Type", "application/json");
  		xhr.send(obj);
- 		
+
  	}
 
+ 	output.innerText = obj.url + " " + obj.num;
  });
