@@ -1,7 +1,3 @@
-  // let form = document.querySelector("form");
-
-  // console.log(form)
-
   let obj ={
   	url : '',
   	num : 0
@@ -28,25 +24,20 @@
  		}
  	}
 
- 	console.log(obj);
-
- 	if (self.fetch) {
-
- 		fetch("https://httpbin.org/post", {
- 			method: "POST",
- 			body: obj
- 		}).then(function(res) {
- 			console.log(res)
- 		});
-
- 	} else {
-
-		let xhr = new XMLHttpRequest();
- 		xhr.open("POST", 'https://httpbin.org/post', true);
- 		xhr.setRequestHeader("Content-Type", "application/json");
- 		xhr.send(obj);
-
- 	}
+	console.log(obj);	 
+	 (async () => {
+		const rawResponse = await fetch('http://127.0.0.1:5000/print', {
+		  method: 'POST',
+		  headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json'
+		  },
+		  body: JSON.stringify({rubrique: obj.url, nombre: obj.num})
+		});
+		// const content = await rawResponse.json();
+	  
+		console.log(content);
+	  })();
 
  	output.innerText = obj.url + " " + obj.num;
  });
