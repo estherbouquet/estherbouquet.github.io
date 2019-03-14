@@ -52,7 +52,7 @@ h1{
 
 .introduction{
   margin-left: 25px;
-  margin-top: 65px;
+  margin-top: 40px;
   width: 80%;
 }
 
@@ -64,7 +64,7 @@ h1{
   padding: 0px 10px;
 }
 .displaybb{
-  line-height: 0.5em;
+  line-height: 0.8em;
 }
 
 form{
