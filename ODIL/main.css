@@ -32,7 +32,7 @@ img{
   float: right;
   display: block;
   margin-right: 65px;
-  margin-top: -10px;
+  margin-top: 0;
 }
 
 h1{
@@ -56,8 +56,12 @@ h1{
   width: 80%;
 }
 
-.ligne{
-  margin: 50px 0;
+.ligne1 {
+  padding : 30px 10px;
+}
+
+.ligne2{
+  padding: 0px 10px;
 }
 .displaybb{
   line-height: 0.5em;
@@ -67,10 +71,10 @@ form{
   margin-top: 120px;
 }
 label{
-  font-size: 15pt;
+  font-size: 16pt;
 }
 .categories{
-  margin: 50px 0;
+  margin: 20px 2px 20px 2px;
   display: inline-flex;
   border: 1px solid black;
   padding: 15px;
