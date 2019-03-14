@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="main.css">
-  <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0"/>
+  <meta name="viewport" content="initial-scale=1.0" maximum-scale=1.0"/>
   <title>Chroniques sur mesure </title>
 </head>
 
@@ -22,7 +22,7 @@
     <p class="avousdejouer">À vous de jouer&#8239;!</p>
   </div>
   <img src="arrow.png" width="50px"/>
-  <form>
+  <form id="form" action="#" method="post" class="form">
     <h2>Sélectionnez une rubrique</h2>
     <div class="ligne1">
       <div class="categories">
@@ -82,25 +82,26 @@
       <label for="5">5</label>
     </div>
     <div>
-      <button type="submit">Lancez votre impression</button>
+      <input type="submit" name="send" value="Lancez votre impression" />
     </div>
   </form>
-  <pre id="log">
-  </pre>
 
-  <script>
-  var form = document.querySelector("form");
-  var log = document.querySelector("#log");
+  <script src="script.js">
+  // var form = document.querySelector("form");
 
-  form.addEventListener("submit", function(event) {
-    var data = new FormData(form);
-    var output = "";
-    for (const entry of data) {
-      output = entry[0] + "=" + entry[1] + "\r";
-    };
-    log.innerText = output;
-    event.preventDefault();
-  }, false);
+  // console.log(form)
+
+  // var log = document.querySelector("#log");
+
+  // form.addEventListener("submit", function(event) {
+  //   var data = new FormData(form);
+  //   var output = "";
+  //   for (const entry of data) {
+  //     output = entry[0] + "=" + entry[1] + "\r";
+  //   };
+  //   log.innerText = output;
+  //   event.preventDefault();
+  // }, false);
 
   </script>
 
