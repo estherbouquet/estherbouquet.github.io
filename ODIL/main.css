@@ -79,6 +79,14 @@ label{
   border: 1px solid black;
   padding: 15px;
 }
+
+.categoriesexcep{
+  margin: 20px 2px 20px 2px;
+  display: inline-flex;
+  border: 1px solid black;
+  padding: 15px;
+}
+
 .displaybb.sciencesexcep{
   line-height: 1em;
 }
