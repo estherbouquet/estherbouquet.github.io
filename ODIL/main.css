@@ -79,6 +79,9 @@ label{
   border: 1px solid black;
   padding: 15px;
 }
+.categories > .numbeers{
+  margin-right: 30px;
+}
 
 .categoriesexcep{
   margin: 20px 2px 20px 2px;
