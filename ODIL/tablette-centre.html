@@ -22,7 +22,7 @@
     <p class="avousdejouer">À vous de jouer&#8239;!</p>
   </div>
   <img src="arrow.png" width="50px"/>
-  <form>
+  <form id="form" action="#" method="post" class="form">
     <h2>Sélectionnez une rubrique</h2>
     <div class="ligne1">
       <div class="categories">
@@ -83,25 +83,28 @@
         <label for="5">5</label>
       </div>
     <div>
-      <button type="submit">Lancez votre impression</button>
+      <input type="submit" name="send" value="Lancez votre impression" />
     </div>
   </form>
-  <pre id="log">
-  </pre>
-fonction call back qui rafraîchit la page à la fin de de setInterval
-  <script>
-  var form = document.querySelector("form");
-  var log = document.querySelector("#log");
 
-  form.addEventListener("submit", function(event) {
-    var data = new FormData(form);
-    var output = "";
-    for (const entry of data) {
-      output = entry[0] + "=" + entry[1] + "\r";
-    };
-    log.innerText = output;
-    event.preventDefault();
-  }, false);
+  <div id="output"></div>
+
+  <script src="script.js">
+  // var form = document.querySelector("form");
+
+  // console.log(form)
+
+  // var log = document.querySelector("#log");
+
+  // form.addEventListener("submit", function(event) {
+  //   var data = new FormData(form);
+  //   var output = "";
+  //   for (const entry of data) {
+  //     output = entry[0] + "=" + entry[1] + "\r";
+  //   };
+  //   log.innerText = output;
+  //   event.preventDefault();
+  // }, false);
 
   </script>
 
