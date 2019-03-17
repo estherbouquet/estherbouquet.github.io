@@ -41,6 +41,7 @@ h1{
     font-size: 115pt;
     text-transform : lowercase;
     font-variant : small-caps;
+    font-weight: normal;
     font-style: italic;
     /*border-bottom: 7px solid black;*/
 /*    transform: skewX(-7deg);*/
@@ -75,6 +76,8 @@ form{
 }
 label{
   font-size: 16pt;
+  padding-left: 3px;
+  line-height: 1.4em;
 }
 .categories{
   margin: 20px 2px 20px 2px;
