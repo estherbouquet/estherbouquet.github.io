@@ -70,13 +70,17 @@ h1{
 
 input[type=submit]{
   /* suppr safari predefined style*/
-  -webkit-appearance: none;
+  /*-webkit-appearance: none;*/
   padding-left: 5px;
   margin-top: 70px;
   border-radius: 0px;
   font-family: "Ginto-Thin-It";
+  background: black;
+  color: white;
+  font-size: 15pt;
+  padding: 10px;
+  font-weight: normal;
   /*border: 1px solid black;*/
-  margin-left: 30%;
 }
 form{
   margin-top: 120px;
@@ -106,7 +110,7 @@ label{
 .displaybb.sciencesexcep{
   line-height: 1em;
 }
-h2, input[type=submit]{
+h2{
     background: black;
     color: white;
     display: inline;
