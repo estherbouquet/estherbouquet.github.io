@@ -1,10 +1,6 @@
-html{
+html, body, p, h2 {
   font-family: "Ginto-Thin-It";
   width: 100%;
-}
-
-body, p, h2 {
-  font-family: "Ginto-Thin-It";
   padding-left: 10px;
 }
 
