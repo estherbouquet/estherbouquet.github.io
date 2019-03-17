@@ -71,6 +71,8 @@ h1{
 input[type=submit]{
   padding-left: 5px;
   margin-top: 70px;
+  background-color: black;
+  border: 1px solid black;
 }
 form{
   margin-top: 120px;
