@@ -67,6 +67,9 @@ h1{
   line-height: 0.8em;
 }
 
+input{
+  padding-left: 5px;
+}
 form{
   margin-top: 120px;
 }
