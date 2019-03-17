@@ -72,8 +72,19 @@ display:none;
 }
 
 /*doesn't work very well*/
-.overlay{
+/*.overlay{
 background: black;
+padding: 10px 0;
+}*/
+
+.overlay > nav > ul > li > a {
+color:transparent;
+}
+
+.overlay{
+background:white;
+color:transparent;
+background-image:url(trame.png);
 padding: 10px 0;
 }
 
