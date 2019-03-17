@@ -67,9 +67,13 @@ article{
     padding-right: 0px;
 }
 
-/* suppression des balises inutiles */ 
-img, header, figcaption, .overlay, .light-grey, .reso, .contact, .groupe, .copy, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed, article > p.auteur, #pub_pop, .content, .pub_ban, .share, .lightgrey, .author, .related, .pubabonnement, .more-read, .reaction, #aside, hr, .clear, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .footer{
-    display : none;
+img, #pub_pop, .overlay.nav, header, article > p.auteur, hr, section.share, section.author, section.related, section.pubabonnement, section.more-read, section.reaction, aside, footer, section.pub_ban__footer, section.pub_ban__footer--fixed, #privacy-banner, .privacy-banner, .privacy-banner--hidden {
+display:none;
+}
+
+.overlay{
+background: black;
+padding: 10px 0;
 }
 
 a{
