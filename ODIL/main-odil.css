@@ -71,6 +71,10 @@ header, #pub_pop, .overlay.nav, .light-grey, figcaption, article > p.auteur, hr,
 display:none;
 }
 
+img{
+max-width: 350px;
+}
+
 .overlay{
 background: black;
 padding: 10px 0;
