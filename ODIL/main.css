@@ -64,9 +64,9 @@ h1{
 .ligne2{
   padding: 0px 10px 70px;
 }
-.displaybb{
+/*.displaybb{
   line-height: 0.8em;
-}
+}*/
 
 input{
   padding-left: 5px;
@@ -77,7 +77,7 @@ form{
 label{
   font-size: 16pt;
   padding-left: 3px;
-  line-height: 1em;
+  /*line-height: 1em;*/
 }
 .categories{
   margin: 20px 2px 20px 2px;
