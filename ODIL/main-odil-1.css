@@ -1,0 +1,116 @@
+html, body {
+    width:384px;
+    overflow-x: hidden;
+    margin:0;
+/*    height:200px;
+    overflow-y:hidden;*/
+}
+
+html,body,p {
+    font-size: 19pt;
+    color : black;
+    font-family: Ginto-Reg;
+    line-height: 1.2em;
+}
+
+p.intro {
+    font-family: Ginto-Thin-It;
+    font-size: 21pt;
+    line-height: 1.2em;
+}
+
+p, a, p > .auteur {
+    font-family: Ginto-Reg;
+}
+
+article > p > span, article > p.auteur {
+    /*text-transform: lowercase;*/
+    text-transform:uppercase;
+    font-size: 10pt;
+    margin-top: 1.5em;
+    margin-bottom:1.5em;
+}
+article > p.auteur > a {
+    background-color: black;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    color: white
+}
+
+h1{
+    font-family: Coign-Bold;
+    font-size: 100pt;
+    text-transform : lowercase;
+    font-variant : small-caps;
+    font-style: italic;
+/*    transform: skewX(-7deg);*/
+    margin-top:0.2em;
+    margin-bottom: 0.1em;
+    line-height: 0.8em;
+    font-kerning :normal;
+}
+
+h2{
+    font-family: Coign-Bold;
+    font-size: 50pt;
+    text-transform : lowercase;
+    font-variant : small-caps;
+    font-style: italic;
+    font-kerning :normal;
+}
+
+article{
+    max-width:384px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+img, header, #pub_pop, .overlay.nav, .light-grey, figcaption, article > p.auteur, hr, section.share, section.author, section.related, section.pubabonnement, section.more-read, section.reaction, aside, footer, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed, article > p.auteur, #privacy-banner, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .privacy-banner--hidden, section.pub_ban > a> img, #pub_ban > img, a.img {
+display:none;
+}
+.overlay{
+    display: none;
+}
+/*doesn't work very well*/
+/*.overlay{
+background: black;
+padding: 10px 0;
+}*/
+
+/*cracra*/
+/*.overlay > nav > ul > li > a {
+color:transparent;
+}
+.overlay{
+background:white;
+color:transparent;
+background-image:url(https://estherbouquet.com/ODIL/trame.png);
+padding: 10px 0;
+}*/
+
+a{
+/*    text-decoration:none;*/
+    color : black;
+}
+
+/* importation des typos */
+
+@font-face{
+    font-family : Coign-Bold;
+    src: url(fonts/coign-47-bold-pro.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : Ginto-Reg;
+    src: url(fonts/Ginto-Regular.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family : Ginto-Thin-It;
+    src: url(fonts/Ginto-Thin-Italic.ttf) format('truetype');
+    font-weight: 500;
+}
