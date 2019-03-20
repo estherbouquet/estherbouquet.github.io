@@ -23,6 +23,10 @@ p, a, p > .auteur {
     font-family: Ginto-Reg;
 }
 
+encadre > h2 {
+    font-family: Ginto-Reg;
+}
+
 article > p > span, article > p.auteur {
     /*text-transform: lowercase;*/
     text-transform:uppercase;
@@ -60,6 +64,7 @@ h2{
     font-variant : small-caps;
     font-style: italic;
     font-kerning :normal;
+    
 }
 
 article{
