@@ -70,9 +70,9 @@ article{
 img, header, #pub_pop, .overlay.nav, .light-grey, figcaption, article > p.auteur, hr, section.share, section.author, section.related, section.pubabonnement, section.more-read, section.reaction, aside, footer, .pub_ban__footer, .pub_ban__footer--empty, .pub_ban__footer--fixed, article > p.auteur, #privacy-banner, #privacy-banner > .contensize, .privacy-banner > .contentsize, .privacy-banner-close, .privacy-banner--hidden, section.pub_ban > a> img, #pub_ban > img, a.img {
 display:none;
 }
-.overlay{
+/*.overlay{
     display: none;
-}
+}*/
 /*doesn't work very well*/
 /*.overlay{
 background: black;
@@ -80,7 +80,7 @@ padding: 10px 0;
 }*/
 
 /*cracra*/
-/*.overlay > nav > ul > li > a {
+.overlay > nav > ul > li > a {
 color:transparent;
 }
 
@@ -89,7 +89,7 @@ background:white;
 color:transparent;
 background-image:url(https://estherbouquet.com/ODIL/trame.png);
 padding: 10px 0;
-}*/
+}
 
 a{
 /*    text-decoration:none;*/
