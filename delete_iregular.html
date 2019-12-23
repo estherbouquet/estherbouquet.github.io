@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>delete - esther bouquet</title>
+    <link rel="preload" href="img/Bouquet_Esther-Collect-01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Collect-05.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Emerge-01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Identify-01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Identify-03.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Select-02.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Select-02.jpg" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">delete</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p>Immersive, site-specific, interactive experience for audiences from 8 to 12 years old.
+        In 6 parts (2 websites and 4 rooms) DELETE asks: in a world where the line between what’s real and what’s virtual
+        has disappeared, what part of what makes us human do we want to keep? During my internship I essentially worked on
+        the scenography of the different rooms and I took part in the experimental process, testing the light effects
+        and interaction.</p>
+      <p><b>delete</b> was presented at Eastern Bloc (Montréal, Canada) in November 2016. This project received the Infopress Boomerang 2017 award (Non-Commercial Interactive
+        Environment Grand Prix), the Numix 2017 Grand Prix and Best Interactive Experiential Production.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "Bouquet_Esther-Collect-01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Collect-05.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Emerge-01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Identify-01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Identify-03.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Select-02.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Select-03.jpg", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

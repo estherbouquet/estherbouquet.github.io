@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>blow - esther bouquet</title>
+    <link rel="preload" href="img/EstherBouquet_blowLamp01.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp02.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp03.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp04.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp06.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp07.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blow.gif" as="image">
+    <link rel="preload" href="img/EstherBouquet-blowLamp-drawings.JPG" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">blow</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p><b>blow</b>, is the first prototype of the ongoing <em>Useless Serie</em>.</p>
+      <p>It's a swinging lamp that needs an air blow to close its
+        circuit and thus, to be lit.</p>
+      <p>Developed during the School For Poetic Computation Fall 2019 Semester.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp01.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp02.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp03.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_blow.gif", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp04.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp06.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_blowLamp07.jpg", "displayName": ""},
+    {"filename": "EstherBouquet-blowLamp-drawings.JPG", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

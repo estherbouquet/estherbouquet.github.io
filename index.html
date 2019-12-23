@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>esther bouquet</title>
+    <link rel="preload" href="img/FilipWolak_Showcase-1912_0096_1448.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks01.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_blowLamp06.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_Datahavre_EstherBouquet06.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery04.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Master_Thesis_close_up.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Workshop_papier_2.0-01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Rapport_de_stage-08.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Identify-03.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_stage_03.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-08.gif" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-WEATHER-mock_up_iMac.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Edition-CORP-Page-photos02.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Borbola-Affiche-Recto.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Projet_Performance_Capes_De_Survie10.JPG" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">esther bouquet</h1>
+    <h1 id="about"><a href="./about.html">about</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "FilipWolak_Showcase-1912_0096_1448.jpg", "displayName": "EMHA", "url": "emha.html"},
+    {"filename": "EstherBouquet_noControl_radicalNetworks01.jpg", "displayName": "(NO)CONTROL", "url": "nocontrol.html"},
+    {"filename": "EstherBouquet_blowLamp06.jpg", "displayName": "BLOW", "url": "blow.html"},
+    {"filename": "SandrineBinoux_Datahavre_EstherBouquet06.jpg", "displayName": "DATA HAVRE", "url": "datahavre.html"},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery04.jpg", "displayName": "ODIL", "url": "odil.html"},
+    {"filename": "Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg", "displayName": "HACKTION", "url": "hacktion.html"},
+    {"filename": "Bouquet_Esther-Master_Thesis_close_up.jpg", "displayName": "À L'OMBRE DE VOS DONNÉES", "url": "a_lombre_de_vos_donnees.html"},
+    {"filename": "Bouquet_Esther-Workshop_papier_2.0-01.jpg", "displayName": "NE NOUS FROISSONS PAS", "url": "ne_nous_froissons_pas.html"},
+    {"filename": "Bouquet_Esther-Iregular-08.jpg", "displayName": "IF/THEN", "url": "if_then_iregular.html"},
+    {"filename": "Bouquet_Esther-Identify-03.jpg", "displayName": "DELETE", "url": "delete_iregular.html"},
+    {"filename": "Bouquet_Esther-Draaimolen_stage_03.jpg", "displayName": "FRAMES", "url": "frames_iregular.html"},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-08.gif", "displayName": "LES TRANS-<br>RISOGRAPHIQUES", "url": "transrisographiques.html"},
+    {"filename": "Bouquet_Esther-Edition-Calvairiennes-Chapitre05.jpg", "displayName": "CHAPELLE DES CALVAIRIENNES", "url": "chapelle_des_calvairiennes_mayenne.html"},
+    {"filename": "Bouquet_Esther-Projet_Performance_Capes_De_Survie10.JPG", "displayName": "CAPES DE SURVIE", "url": "capes_de_survie.html"}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX;
+    const width = window.innerWidth;
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width;
+    const imageNumber = Math.floor(percentage * images.length);
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  });
+
+</script>
+  </body>
+</html>

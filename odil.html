@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ODIL - esther bouquet</title>
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery04.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery03.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery02.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery01.jpg" as="image">
+    <link rel="preload" href="img/SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery05.jpg" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">ODIL</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p>Thanks to its mediation and interpreter skills, <b>ODIL</b> (The Essor Affiches newspaper’s Dynamic Operator of Local Information) offers visitors an experience to discover (again) the printed press in order to highlight its importance.
+        The development of online press has indeed created many deep changes in the way we receive information and has birthed a certain distance between
+        the reader and the content. Embracing the challenges linked to this revolution, ODIL tends to capture the sensitive nature of the written press
+        focusing on the manipulation of paper.</p>
+      <p>Art direction, conception and scenography developed with <a href="http://www.leabelzunces.com" target="_blank">Léa Belzunces</a> and <a href="https://cargocollective.com/deborahloissery" target="_blank">Déborah-Loïs Séry</a>.</p>
+      <p>Exhibited at the Biennale Internationale Design 2019 (Saint-Etienne, France).</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery04.jpg", "displayName": ""},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery01.jpg", "displayName": ""},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery02.jpg", "displayName": ""},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery05.jpg", "displayName": ""},
+    {"filename": "SandrineBinoux_ODIL_LeaBelzunces-EstherBouquet-DeborahLoisSery03.jpg", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

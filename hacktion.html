@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>hacktion - esther bouquet</title>
+    <link rel="preload" href="img/Bouquet_Esther-General_Mind_Map.jpg" as="image">
+    <link rel="preload" href="img/ouquet_Esther-hackolyte_interface-mockup_index.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hackumule-cards.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hackumule-packaging.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hackumule-player03.jpg" as="image">
+    <link rel="preload" href="img/01Bouquet_Esther-hackcess_smartphone_interface.gif" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-hackcess_questionnaire_ordinateur.gif" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">hacktion</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p> Data are the conventional representation of a piece of information which can be analogue or digital and which can be automatically processed. Metadata on the other hand,
+        represent a piece of information on another piece of information, where the Greek prefix indicates self-referencing, “data regarding other data”.</p>
+      <p>When we are surfing on the web, metadata are everywhere all the time: through our clicks, searches, requests, browsing history; through the time,
+        the date of connexion; through our current or passed localisation. Acting like intangible tracks of our actions, some of them are collected by the visited websites.
+        Those tracks left during our virtual paths are mostly and generally unintentional but they are also generating spatial and temporal coordinates. Eventually,
+        those invisible and intangible details enable us to be identified and tracked without our knowledge and against our will. </p>
+      <p><b>hacktion</b> is the result of four projects, helping ourselves to get back power on our data today, for tomorrow’s daily uses.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "Bouquet_Esther-General_Mind_Map.jpg", "displayName": "MIND MAP"},
+    {"filename": "Bouquet_Esther-hackolyte_interface-mockup_index.jpg", "displayName": "HACKOLYTE"},
+    {"filename": "Bouquet_Esther-hacktivity-twin_macbook_video_games.jpg", "displayName": "HACKTIVITY"},
+    {"filename": "Bouquet_Esther-hackumule-cards.jpg", "displayName": "HACKUMULE"},
+    {"filename": "Bouquet_Esther-hackumule-packaging.jpg", "displayName": "HACKUMULE"},
+    {"filename": "Bouquet_Esther-hackumule-player03.jpg", "displayName": "HACKUMULE"},
+    {"filename": "01Bouquet_Esther-hackcess_smartphone_interface.gif", "displayName": "HACKCESS"},
+    {"filename": "Bouquet_Esther-hackcess_questionnaire_ordinateur.gif", "displayName": "HACKCESS"}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

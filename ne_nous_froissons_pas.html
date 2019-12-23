@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ne nous froissons pas - esther bouquet</title>
+    <link rel="preload" href="img/Bouquet_Esther-Workshop_papier_2.0-01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Workshop_papier_2.0-02.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Workshop_papier_2.0-03.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Workshop_papier_2.0-04.jpg" as="image">
+    <link rel="preload" href="img/ne_nous_froissons_pas.gif" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">ne nous froissons pas</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p>Interactive installation enabling a new experience of touch.
+        Each visitor is invited to manipulate a sheet of paper (scrunching it, scratching, folding, rolling,
+        stroking it, ...) creating a unique lighting reaction. Each one of those interactions are then graphically
+        translated and saved, generating a collection of the individual experiences.</p>
+      <p><b>ne nous froissons pas</b> was developed and designed with Aurélie Cousquer, Quentin Dufour and Sterenn Reesse-Destoc.</p>
+      <p>Premiered at the Nuit Papier 2.0, during the festival Maintenant 2016 in Rennes.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "Bouquet_Esther-Workshop_papier_2.0-01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Workshop_papier_2.0-02.jpg", "displayName": ""},
+    {"filename": "ne_nous_froissons_pas.gif", "displayName": ""},
+    {"filename": "Bouquet_Esther-Workshop_papier_2.0-03.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Workshop_papier_2.0-04.jpg", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

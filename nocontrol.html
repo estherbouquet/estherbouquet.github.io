@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>(no)control - esther bouquet</title>
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks01.jpg" as="image">
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks03.png" as="image">
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks05.gif" as="image">
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks06.gif" as="image">
+    <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks07.gif" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">(no)control</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p>Considering the web as a free space where our private life can still be preserved often implies forgetting the strong
+        implications and conflicts linked to the data we generate while we browse and which build our digital identity.
+        <b>(no)control</b> tries to unveil the mechanisms of control and their asymmetry on the web by physically embodying them.
+        This installation tries to illustrate how data based companies process, control and manipulate our data without our consent,
+        awareness or involvement over time.</p>
+      <p>You can see a video of the installation <a href="https://vimeo.com/estherbouquet/no-control" target="_blank">here</a>.</p>
+      <p>Exhibited at ESADSE Graduate Showcase 2019 (Saint-Etienne, France) and at Radical Networks 2019 (NYC, USA). </p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "EstherBouquet_noControl_radicalNetworks01.jpg", "displayName": ""},
+    {"filename": "EstherBouquet_noControl_radicalNetworks03.png", "displayName": ""},
+    {"filename": "EstherBouquet_noControl_radicalNetworks05.gif", "displayName": ""},
+    {"filename": "EstherBouquet_noControl_radicalNetworks06.gif", "displayName": ""},
+    {"filename": "EstherBouquet_noControl_radicalNetworks07.gif", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

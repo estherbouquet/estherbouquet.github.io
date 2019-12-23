@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>transrisographiques - esther bouquet</title>
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-04.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-05.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-08.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-01.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-03.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-05.JPG" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-exposition_transrisographiques-06.JPG" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">transrisographiques</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p>Every day for one week, we designed one poster for one group of music invited to the 37th edition of Les Transmusicales in Rennes,
+        a music festival. This one-week workshop with <a href="http://www.superterrain.fr/" target="_blank">SuperTerrain</a> led us to create
+        and design lots of posters in a very short time in order to explore and discover the technical and plastical capabilities of the
+        risograph printing.</p>
+      <p>It was then developed in an exhibition, divided in different poles to highlight the variety and wealth of the printed posters.
+        The exhibition displayed the several steps of the risograph printing with first the masters used for the different color layers,
+        then the macules used to chock the printing and finally the finished posters.</p>
+      <p>Exhibited at Galerie LENDROIT (Rennes, France) in February 2017.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-04.JPG", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-05.JPG", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-08.gif", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-01.JPG", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-03.JPG", "displayName": ""},
+    {"filename": "Bouquet_Esther-workshop_transrisographiques-05.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-exposition_transrisographiques-06.JPG", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>

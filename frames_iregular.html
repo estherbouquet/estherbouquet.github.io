@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>frames - esther bouquet</title>
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_experimentation_01.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_experimentation_03.jpg.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_stage_01" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_stage_03.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_stage_05.jpg" as="image">
+    <link rel="preload" href="img/Bouquet_Esther-Draaimolen_stage_06.jpg" as="image">
+  </head>
+
+  <body>
+
+    <h1 id="name">frames</h1>
+    <h1 id="about"><a href="./index.html">projects</a></h1>
+
+    <div id="mouse"></div>
+
+    <section class="slideshow"></section>
+    <div class="text-project">
+      <p><b>FRAMES</b> is a scenography created during my internship at Iregular. It is made of seven floating acrylic frames
+        mapped with projection. It was conceived as digital layer over the nature that surrounded the stage.</p>
+      <p>Presented at Draaimolen Festival 2016 (Tilburg, Netherlands). You can watch the video <a href="https://vimeo.com/186379212">here</a>.</p>
+    </div>
+
+<script type="text/javascript">
+
+  const slideshow = document.querySelector("section.slideshow")
+
+  const imgNames = [
+    {"filename": "", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_experimentation_01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_experimentation_03.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_stage_01.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_stage_03.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_stage_05.jpg", "displayName": ""},
+    {"filename": "Bouquet_Esther-Draaimolen_stage_06.jpg", "displayName": ""}
+  ]
+
+  for (var i = 0; i < imgNames.length; i++) {
+    const tmpImg = document.createElement("img");
+    tmpImg.src = "img/" + imgNames[i].filename;
+    slideshow.appendChild(tmpImg);
+  }
+
+  const mouse_elem = document.querySelector("#mouse");
+  const images = slideshow.querySelectorAll("img")
+  var currIndex = 0;
+
+  document.addEventListener("mousemove", function(event){
+    const x = event.pageX
+    const width = window.innerWidth
+
+    mouse_elem.style.left = event.pageX - 75 + "px";
+    mouse_elem.style.top = event.pageY - 75 + "px";
+
+    const percentage = x/width
+    const imageNumber = Math.floor(percentage * images.length)
+
+    mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
+
+    // images.forEach(image =>{
+    //   image.style.display = "none";
+    // })
+    //
+    // images[imageNumber].style.display = "";
+    if (imageNumber != currIndex){
+      images[imageNumber].classList.add("fade");
+      images[currIndex].classList.remove("fade");
+      currIndex = imageNumber;
+    }
+  })
+
+</script>
+  </body>
+</html>
