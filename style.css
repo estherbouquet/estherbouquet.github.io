@@ -119,3 +119,22 @@ a:hover{
   src: url("./font/HelveticaNeueLTCom-Roman.ttf");
   font-weight: 500;
 }
+
+
+@media only screen and (max-width: 769px){
+  section.slideshow img {
+      width: auto;
+      max-width: none;
+      height: 100%;
+  }
+  #name, #about{
+    font-size: 30px;
+  }
+  .thanks{
+    display: none;
+  }
+  .text{
+    font-size: 18px;
+    top: 12%;
+  }
+}

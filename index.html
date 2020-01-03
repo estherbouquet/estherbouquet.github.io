@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>esther bouquet</title>
     <link rel="preload" href="img/FilipWolak_Showcase-1912_0096_1448.jpg" as="image">
     <link rel="preload" href="img/EstherBouquet_noControl_radicalNetworks01.jpg" as="image">
@@ -73,7 +74,7 @@
     const imageNumber = Math.floor(percentage * images.length);
 
     mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
-    
+
     document.addEventListener("click", function(event){
       var test = location.replace("https://estherbouquet.com/" + imgNames[imageNumber].url);
       console.log(test);
