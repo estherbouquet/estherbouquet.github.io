@@ -73,13 +73,19 @@
     const imageNumber = Math.floor(percentage * images.length);
 
     mouse_elem.innerHTML = "<p>" + imgNames[imageNumber].displayName + "</p>";
-
+    
+    document.addEventListener("click", function(event){
+      var test = location.replace("https://estherbouquet.com/" + imgNames[imageNumber].url);
+      console.log(test);
+    });
     if (imageNumber != currIndex){
       images[imageNumber].classList.add("fade");
       images[currIndex].classList.remove("fade");
       currIndex = imageNumber;
     }
   });
+
+
 
 </script>
   </body>
