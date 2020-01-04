@@ -5,7 +5,7 @@
   font-family: "Hell-vetica";
 }
 
-#name {
+#name, #name-ordi, #name-mobile {
   position: fixed;
   top: 3%;
   left: 2%;
@@ -113,7 +113,7 @@ a:hover{
   font-size: 15px;
 }
 
-.mobile-view{
+.mobile-view, #name-mobile{
   display: none;
 }
 
@@ -125,7 +125,7 @@ a:hover{
 
 
 @media only screen and (max-width: 770px){
-  .mobile-view{
+  .mobile-view, #name-mobile{
     display: block;
   }
   html, body{
@@ -167,7 +167,7 @@ a:hover{
   transform: translate(-50%, -50%);
 }
 
-  #name, #about{
+  #name, #name-mobile, #about{
     font-size: 30px;
   }
   .thanks{
@@ -177,7 +177,7 @@ a:hover{
     font-size: 18px;
     top: 12%;
   }
-  .slideshow, #mouse{
+  .slideshow, #mouse, #name-ordi{
     display: none;
   }
 }
