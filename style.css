@@ -180,4 +180,22 @@ a:hover{
   .slideshow, #mouse, #name-ordi{
     display: none;
   }
+  .text-project{
+    left: 2%;
+    /* top: 15vh; */
+    margin-bottom: 2%;
+    width: 90%;
+    font-size: 25px;
+    position: relative;
+    margin-top: 25%;
+    z-index: 2;
+    color: black;
+  }
+  .text-project p{
+    margin-bottom: 5%;
+  }
+  .mobile-view-project img{
+    width: 100%;
+  }
+
 }
