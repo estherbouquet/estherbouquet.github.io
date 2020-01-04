@@ -113,7 +113,7 @@ a:hover{
   font-size: 15px;
 }
 
-.mobile-view, #name-mobile{
+.mobile-view, #name-mobile, .mobile-view-project{
   display: none;
 }
 
@@ -125,7 +125,7 @@ a:hover{
 
 
 @media only screen and (max-width: 770px){
-  .mobile-view, #name-mobile{
+  .mobile-view, #name-mobile, .mobile-view-project{
     display: block;
   }
   html, body{
